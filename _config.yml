@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "China"
 site_theme               : "default"
-title                    : "Your Name / Site Title"Yudie Jianyao / About Me
+title                    : Yudie Jianyao's Personal Homepage
 title_separator          : "-"
 name                     : &name Yudie Jianyao
 description              : &description "personal description"
@@ -38,7 +38,7 @@ author:
   impactstory      : # URL
   orcid            : https://orcid.org/0000-0002-5264-5084
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : https://www.researchgate.net/profile/Yudie-Jianyao-2?ev=hdr_xprf
   scopus           : # URL
 
