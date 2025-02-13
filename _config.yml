@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "China"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Your Name / Site Title"Yudie Jianyao / About Me
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name Yudie Jianyao
 description              : &description "personal description"
 # url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 url                      : https://jyyd.github.io
