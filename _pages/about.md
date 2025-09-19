@@ -7,50 +7,69 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fifth-year Ph.D. student (Class of 2023) from the [School of Safety Science](https://www.ssafs.tsinghua.edu.cn/index.htm), [Tsinghua University](https://www.tsinghua.edu.cn/). My research interests include probabilistic risk analysis, applications of machine learning in emergency safety, and generative models for rapid reconstruction of gas dispersion.
-
-I am very fortunate to be advised by Prof. Xiaole Zhang from the School of Safety Science at Tsinghua University. Under his guidance, I am exploring cutting-edge approaches to enhance safety science and risk management. 
-
-[Email](jyyd23@mails.tsinghua.edu.cn)/ [Github](https://github.com/Jyyd) 
+# Welcome JYYD Homepage 🤝
+> 🎯 **Availability (Postdoc)**  
+> Expected Ph.D. completion: **June 2026**. I will be available for postdoctoral positions from **July 2026** and warmly welcome enquiries or informal chats about potential roles or collaborations: [jyyd23@mails.tsinghua.edu.cn](mailto:jyyd23@mails.tsinghua.edu.cn).
 
 
-<!--
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+# About Me 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I'm a sixth-year Ph.D. student (*Class of 2023*) at the [School of Safety Science](https://www.ssafs.tsinghua.edu.cn/index.htm), [Tsinghua University](https://www.tsinghua.edu.cn/). My research interests include probabilistic risk analysis, applications of machine learning in safety (*AI4Safety*), and generative models for rapid reconstruction of gas dispersion.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am very fortunate to be advised by ([**Prof. Xiaole Zhang**](https://www.ssafs.tsinghua.edu.cn/en/info/1498/1021.htm)) from the School of Safety Science at Tsinghua University. Under his guidance I explore cutting-edge approaches to enhance safety science, risk management, and real-time emergency response systems.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+I welcome collaboration, discussion, and questions from faculty, peers, and students. Please feel free to reach out — I'm happy to talk about research, potential collaborations, or student mentorship. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+## 🎓 Education
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- **Ph.D. in Safety Science and Engineering**, School of Safety Science, Tsinghua University, Beijing, China  
+  **09/2020 – 06/2026**  
+  - **Dissertation:** “Research on the Transport Evolution and Quantitative Risk of Hazardous Substances”.  
+  - **Supervisor:** Assistant Professor Xiaole Zhang.  
+  *(Direct-entry Ph.D.; transferred from the M.Sc. track — master’s degree not conferred.)*
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **B.Sc. in Safety Engineering**, School of Emergency Management and Safety Engineering, China University of Mining and Technology (Beijing), Beijing, China  
+  **09/2016 – 06/2020**  
+  - **Dissertation:** “Influence of open and closed windows on the vertical spread characteristics of fire”.  
+  - **Supervisor:** Professor Wei Zhao.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
--->
+## 🧑‍💻 Contact
+- [Email](mailto:jyyd23@mails.tsinghua.edu.cn)
+- [GitHub](https://github.com/Jyyd) 
+- [Researchgate](https://www.researchgate.net/profile/Yudie-Jianyao-2?ev=hdr_xprf)
+- [Google Scholar](https://scholar.google.com.hk/citations?user=FAt6AtMAAAAJ&hl=en)
+
+## 🎉 News
+
+<!-- Placeholder for updates / news. Content to be added later. -->
+
+## 🔎 Research statement
+
+My research includes: **AI4Safety** (the application of machine learning & deep learning to physical-world public-safety problems such as emergency management and disaster response — *not* cybersecurity), **atmospheric pollutant diffusion prediction**, **data assimilation for hazardous-chemical leakage forecasting**, and **probabilistic risk analysis**. 
+
+## Publications
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+## 📚 Selected projects 
+
+* **Atmospheric transport and quantitative risk of ultra-fine particles** *(09/2023 - present)*
+  - **ML Model:** Developed a stacked ensemble machine learning framework (Stem-PNC) integrating data-driven and physicochemical models to simulate ultrafine particle (UFP) number concentrations at high spatiotemporal resolution (1 km; 1 hour).
+  - **Risk Analysis:** Enabled regional-scale UFP exposure assessment and health risk evaluation, providing new insights into environmental pollutant impacts.
+  - Articles have been published in [**Nature Communications**](https://www.nature.com/articles/s41467-025-56581-8).
+
+
+* **Data Assimilation-Driven Environmental Impact Assessment Technology for Hazardous Chemical Leakage** *(09/2023 - present)*
+  - **Rapid Prediction Model:** Developed a deep learning-based model for real-time forecasting of emergency scenarios using meteorological data.
+  - **Data Assimilation with Deep Learning:** Use a deep learning surrogate model to update and correct predictions through sensor data assimilation.
+  - **Low-Cost Sensor Network & Web Platform:** Established a low-cost sensor network and a web-based system for real-time data collection, prediction, and model calibration.
+  - Achieved applied outcomes with two registered *software copyrights*.
+
+* **Food Security Supervision Model Design** *(09/2021-2023/09)*
+  - Built a big-data-driven supervisory system for grain storage safety, combining statistical analysis, predictive modeling, and clustering methods.
+  - Use Neo4j graph database for relationship mining, and apply natural language processing (NLP) for sentiment analysis and text summarisation.
+  - Articles have been published in [*Journal of Safety Science and Resilience*](https://www.sciencedirect.com/science/article/pii/S2666449622000500?via%3Dihub).
+
