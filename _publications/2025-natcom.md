@@ -5,7 +5,7 @@ category: manuscripts
 authors: "Yudie Jianyao*, Hongyong Yuan*, Guofeng Su, Jing Wang, Wenguo Weng & Xiaole Zhang#"   # 按显示顺序写
 venue: "Nature Communications"
 year: 2025-01
-thumb: "/assets/images/pubs/natcom-2025.png"
+thumb: "../assets/images/pubs/natcom-2025.png"
 ---
 **DOI:** "https://doi.org/10.1038/s41467-025-56581-8"
 **Code:** "https://github.com/Jyyd/PNC_Estimate"   # 可选
