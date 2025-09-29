@@ -1,3 +1,13 @@
+<!--
+ * @Author: JYYD jyyd23@mails.tsinghua.edu.cn
+ * @Date: 2025-09-19 01:04:40
+ * @LastEditors: JYYD jyyd23@mails.tsinghua.edu.cn
+ * @LastEditTime: 2025-09-29 14:59:10
+ * @FilePath: \jyyd.github.io\_pages\about.md
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+-->
 ---
 permalink: /
 title: About Me

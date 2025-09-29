@@ -11,7 +11,7 @@ authors: "Yudie Jianyao*, Hongyong Yuan*, Guofeng Su, Jing Wang, Wenguo Weng & X
 ---
 **Presentation type:** Poster presentation  
 **Conference:** The 3rd International Conference on Urban Science and Intelligence.  
-**Role:** Poster presenter / co-author
+**Role:** Poster presenter / co-author.
 **DOI:** "https://doi.org/10.1038/s41467-025-56581-8"
 **Code:** "https://github.com/Jyyd/PNC_Estimate"
 
