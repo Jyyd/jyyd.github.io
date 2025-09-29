@@ -6,7 +6,7 @@ venue: "17th International Conference on Probabilistic Safety Assessment and Man
 date: 2024-10-11
 location: "Sendai, Japan"
 # slides: "/assets/slides/psam17-talk-slides.pdf"   # 可选：公开 slides 链接或留空
-thumb:  "../images/talks202410.jpg"
+thumb:  "https://github.com/Jyyd/jyyd.github.io/tree/master/images/talks202410.jpg"
 authors: "Yudie Jianyao*, Xiaole Zhang#, Hongyong Yuan, Guofeng Su"
 ---
 
