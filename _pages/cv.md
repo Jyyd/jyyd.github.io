@@ -12,18 +12,19 @@ redirect_from:
 Contact
 ======
 - [Email](mailto:jyyd23@mails.tsinghua.edu.cn)
-- [GitHub](https://github.com/Jyyd) 
-- [Researchgate](https://www.researchgate.net/profile/Yudie-Jianyao-2?ev=hdr_xprf)
-- [Google Scholar](https://scholar.google.com.hk/citations?user=FAt6AtMAAAAJ&hl=en)
 
 Education
 ======
-* *09/2020 - 06/2026*:	**Ph.D.** in Safety Science and Engineering, School of Safety Science, Tsinghua University, Beijing, China. 
-	* Dissertation: “Research on the Transport Evolution and Quantitative Risk of Hazardous Substances”.
-	* Supervisor: Assistant Professor Xiaole Zhang
-* *09/2016 - 06/2020*:	**B.Sc.** In Safety Engineering, School of Emergency Management and Safety Engineering, China University of Mining and Technology (Beijing),  Beijing, China.
-	* Dissertation: “Influence of open and closed windows on the vertical spread characteristics of fire”. 
-	* Supervisor: Professor Wei Zhao
+ - **Ph.D. in Safety Science and Engineering**, School of Safety Science, Tsinghua University, Beijing, China  
+  **09/2020 – 06/2026**  
+  - **Dissertation:** “Research on the Transport Evolution and Quantitative Risk of Hazardous Substances”.  
+  - **Supervisor:** Assistant Professor Xiaole Zhang.  
+  *(Direct-entry Ph.D.; transferred from the M.Sc. track — master’s degree not conferred.)*
+
+- **B.Sc. in Safety Engineering**, School of Emergency Management and Safety Engineering, China University of Mining and Technology (Beijing), Beijing, China  
+  **09/2016 – 06/2020**  
+  - **Dissertation:** “Influence of open and closed windows on the vertical spread characteristics of fire”.  
+  - **Supervisor:** Professor Wei Zhao.
 
 
 Research Experience
@@ -75,12 +76,6 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
   
 Service and leadership
 ======
