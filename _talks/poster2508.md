@@ -5,7 +5,7 @@ type: "Poster"
 venue: "The 3rd International Conference on Urban Science and Intelligence — Outstanding Poster Award, 2025"
 date: 2025-08-21
 location: "Bali, Indonesia"
-thumb: "../images/poster202508.jpg"   # 上传你的海报缩略图并修改路径
+thumb: "https://github.com/Jyyd/jyyd.github.io/tree/master/images/poster202508.jpg"   # 上传你的海报缩略图并修改路径
 # poster: "/assets/posters/asram2024-poster.pdf"             # 可选：海报 PDF 链接
 authors: "Yudie Jianyao*, Hongyong Yuan*, Guofeng Su, Jing Wang, Wenguo Weng & Xiaole Zhang#"
 ---
