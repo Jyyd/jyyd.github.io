@@ -7,6 +7,10 @@ venue: "Nature Communications"
 year: 2025-01
 thumb: "https://github.com/Jyyd/jyyd.github.io/tree/master/assets/images/pubs/natcom-2025.png"
 ---
+# Machine learning-enhanced high-resolution exposure assessment of ultrafine particles
+## venue: "Nature Communications"
+> Date:2025-01
+> 
 >**DOI:** "https://doi.org/10.1038/s41467-025-56581-8"
 >
 >**Code:** "https://github.com/Jyyd/PNC_Estimate"
