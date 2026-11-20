@@ -1,75 +1,55 @@
 ---
+layout: homepage
 permalink: /
-title: About Me
+title: "Yudie Jianyao"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+<section class="home-intro" aria-labelledby="intro-heading">
+  <p class="home-eyebrow">SAFETY SCIENCE · TSINGHUA UNIVERSITY</p>
+  <h1 id="intro-heading">Machine learning for a<br><span>safer physical world.</span></h1>
+  <p class="home-lead">I’m <strong>Yudie Jianyao</strong>. My research connects machine learning, atmospheric dispersion, and quantitative risk assessment to support public safety and emergency response.</p>
+  <p class="home-bio">I work with <a href="https://www.ssafs.tsinghua.edu.cn/en/info/1498/1021.htm">Prof. Xiaole Zhang</a> at the School of Safety Science, Tsinghua University. I’m interested in turning complex environmental data into fast, useful predictions of real-world hazards.</p>
+  <div class="home-topics" aria-label="Research interests"><span>AI for Safety</span><span>Atmospheric dispersion</span><span>Risk assessment</span></div>
+  <nav class="home-contact" aria-label="Research profiles"><a class="home-button" href="mailto:jyyd23@mails.tsinghua.edu.cn">Get in touch</a><a href="https://scholar.google.com.hk/citations?user=FAt6AtMAAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.researchgate.net/profile/Yudie-Jianyao-2">ResearchGate</a><a href="https://github.com/Jyyd">GitHub</a></nav>
+</section>
 
-# Welcome to JYYD's Homepage 🤝
-> 🎯 **Availability (Postdoc)**  
-> Expected Ph.D. completion: **June 2026**. I will be available for postdoctoral positions from **July 2026** and warmly welcome enquiries or informal chats about potential roles or collaborations: [jyyd23@mails.tsinghua.edu.cn](mailto:jyyd23@mails.tsinghua.edu.cn).
+<section class="home-section" aria-labelledby="papers-heading">
+  <div class="home-section-heading"><div><p class="home-eyebrow">SELECTED WORK</p><h2 id="papers-heading">Journal articles</h2></div><a class="home-all-link" href="{{ '/publications/' | relative_url }}">All publications</a></div>
+  <p class="home-section-note">Selected first-author research.</p>
+  <div class="research-cards">
+  {% for post in site.publications reversed %}
+    {% if post.featured and post.category == 'manuscripts' %}
+      {% include research-card.html %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>
 
+<section class="home-section" aria-labelledby="conferences-heading">
+  <div class="home-section-heading"><div><p class="home-eyebrow">PRESENTING RESEARCH</p><h2 id="conferences-heading">Conference papers</h2></div><a class="home-all-link" href="{{ '/talks/' | relative_url }}">Talks &amp; presentations</a></div>
+  <div class="research-cards">
+  {% for post in site.publications reversed %}
+    {% if post.featured and post.category == 'conferences' %}
+      {% include research-card.html %}
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>
 
-# About Me 
+<section class="home-section" aria-labelledby="research-heading">
+  <div class="home-section-heading"><div><p class="home-eyebrow">RESEARCH FOCUS</p><h2 id="research-heading">From data to safer decisions</h2></div></div>
+  <div class="home-focus-grid">
+    <article><span class="focus-symbol" aria-hidden="true">◌</span><h3>Environmental exposure</h3><p>High-resolution models of ultrafine particles and population exposure.</p></article>
+    <article><span class="focus-symbol" aria-hidden="true">≈</span><h3>Hazardous releases</h3><p>Fast dispersion prediction and sensor-informed data assimilation.</p></article>
+    <article><span class="focus-symbol" aria-hidden="true">◇</span><h3>Risk &amp; supervision</h3><p>Data-driven methods for risk assessment, anomaly detection, and safety management.</p></article>
+  </div>
+</section>
 
-I'm a sixth-year Ph.D. student (*Class of 2023*) at the [School of Safety Science](https://www.ssafs.tsinghua.edu.cn/index.htm), [Tsinghua University](https://www.tsinghua.edu.cn/). My research interests include probabilistic risk analysis, applications of machine learning in safety (*AI4Safety*), and generative models for rapid reconstruction of gas dispersion.
-
-I am very fortunate to be advised by ([**Prof. Xiaole Zhang**](https://www.ssafs.tsinghua.edu.cn/en/info/1498/1021.htm)) from the School of Safety Science at Tsinghua University. Under his guidance I explore cutting-edge approaches to enhance safety science, risk management, and real-time emergency response systems.
-
-I welcome collaboration, discussion, and questions from faculty, peers, and students. Please feel free to reach out — I'm happy to talk about research, potential collaborations, or student mentorship. 
-
-
-## 🎓 Education
-
-- **Ph.D. in Safety Science and Engineering**, School of Safety Science, Tsinghua University, Beijing, China  
-  **09/2020 – 06/2026**  
-  - **Dissertation:** “Research on the Transport Evolution and Quantitative Risk of Hazardous Substances”.  
-  - **Supervisor:** Assistant Professor Xiaole Zhang.  
-  *(Direct-entry Ph.D.; transferred from the M.Sc. track — master’s degree not conferred.)*
-
-- **B.Sc. in Safety Engineering**, School of Emergency Management and Safety Engineering, China University of Mining and Technology (Beijing), Beijing, China  
-  **09/2016 – 06/2020**  
-  - **Dissertation:** “Influence of open and closed windows on the vertical spread characteristics of fire”.  
-  - **Supervisor:** Professor Wei Zhao.
-
-
-## 🧑‍💻 Contact
-- [Email](mailto:jyyd23@mails.tsinghua.edu.cn)
-- [GitHub](https://github.com/Jyyd) 
-- [Researchgate](https://www.researchgate.net/profile/Yudie-Jianyao-2?ev=hdr_xprf)
-- [Google Scholar](https://scholar.google.com.hk/citations?user=FAt6AtMAAAAJ&hl=en)
-
-## 🎉 News
-
-<!-- Placeholder for updates / news. Content to be added later. -->
-
-## 🔎 Research statement
-
-My research includes: **AI4Safety** (the application of machine learning & deep learning to physical-world public-safety problems such as emergency management and disaster response — *not* cybersecurity), **atmospheric pollutant diffusion prediction**, **data assimilation for hazardous-chemical leakage forecasting**, and **probabilistic risk analysis**. 
-
-## Publications
-  <div class="publications">{% for post in site.publications reversed %}
-    {% include publication-summary.html %}
-  {% endfor %}</div>
-
-## 📚 Selected projects 
-
-* **Atmospheric transport and quantitative risk of ultra-fine particles** *(09/2023 - present)*
-  - **ML Model:** Developed a stacked ensemble machine learning framework (Stem-PNC) integrating data-driven and physicochemical models to simulate ultrafine particle (UFP) number concentrations at high spatiotemporal resolution (1 km; 1 hour).
-  - **Risk Analysis:** Enabled regional-scale UFP exposure assessment and health risk evaluation, providing new insights into environmental pollutant impacts.
-  - Articles have been published in [**Nature Communications**](https://www.nature.com/articles/s41467-025-56581-8).
-
-
-* **Data Assimilation-Driven Environmental Impact Assessment Technology for Hazardous Chemical Leakage** *(09/2023 - present)*
-  - **Rapid Prediction Model:** Developed a deep learning-based model for real-time forecasting of emergency scenarios using meteorological data.
-  - **Data Assimilation with Deep Learning:** Use a deep learning surrogate model to update and correct predictions through sensor data assimilation.
-  - **Low-Cost Sensor Network & Web Platform:** Established a low-cost sensor network and a web-based system for real-time data collection, prediction, and model calibration.
-  - Achieved applied outcomes with two registered *software copyrights*.
-
-* **Food Security Supervision Model Design** *(09/2021-2023/09)*
-  - Built a big-data-driven supervisory system for grain storage safety, combining statistical analysis, predictive modeling, and clustering methods.
-  - Use Neo4j graph database for relationship mining, and apply natural language processing (NLP) for sentiment analysis and text summarisation.
-  - Articles have been published in [*Journal of Safety Science and Resilience*](https://www.sciencedirect.com/science/article/pii/S2666449622000500?via%3Dihub).
-
+<section class="home-section home-education" aria-labelledby="education-heading">
+  <div class="home-section-heading"><div><p class="home-eyebrow">BACKGROUND</p><h2 id="education-heading">Education</h2></div><a class="home-all-link" href="{{ '/cv/' | relative_url }}">View CV</a></div>
+  <div class="education-row"><span class="education-year">2020–2026</span><div><h3>Tsinghua University</h3><p>Ph.D. program in Safety Science and Engineering</p><p class="education-detail">Supervisor: Xiaole Zhang</p></div></div>
+  <div class="education-row"><span class="education-year">2016–2020</span><div><h3>China University of Mining and Technology (Beijing)</h3><p>B.Sc. in Safety Engineering</p><p class="education-detail">Supervisor: Wei Zhao</p></div></div>
+</section>

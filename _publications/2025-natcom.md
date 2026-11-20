@@ -1,4 +1,7 @@
 ---
+featured: true
+paperurl: "https://doi.org/10.1038/s41467-025-56581-8"
+image_alt: "Stem-PNC framework for high-resolution ultrafine particle exposure modeling"
 title: "Machine learning-enhanced high-resolution exposure assessment of ultrafine particles"
 collection: publications
 category: manuscripts

@@ -10,6 +10,9 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
+{% if page.layout == 'homepage' %}
+<link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">
+{% endif %}
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
 
