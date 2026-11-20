@@ -9,5 +9,14 @@
     <h3><a href="{{ paper_link }}">{{ post.title }}</a></h3>
     <p class="research-card__authors">{{ post.authors | remove: '*' | remove: '#' | escape | replace: 'Yudie Jianyao', '<strong>Yudie Jianyao</strong>' }}</p>
     <p class="research-card__venue">{{ post.venue }}</p>
+    {% if include.show_abstract and post.content != empty %}
+      {% assign abstract_text = post.content | strip %}
+      {% if abstract_text != '' %}
+      <details class="card-abstract">
+        <summary>Abstract</summary>
+        <div>{{ post.content | markdownify }}</div>
+      </details>
+      {% endif %}
+    {% endif %}
   </div>
 </article>

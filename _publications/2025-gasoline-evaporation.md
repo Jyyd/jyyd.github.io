@@ -1,4 +1,8 @@
 ---
+authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, et al."
+venue: "Journal of Hazardous Materials"
+thumb: "/assets/images/pubs/research-concept.svg"
+image_alt: "Decorative safety research illustration; not a figure from the paper"
 title: "Physics-Guided Machine Learning for Evaporation Risk Assessment during Gasoline Spill Accidents"
 collection: publications
 category: manuscripts

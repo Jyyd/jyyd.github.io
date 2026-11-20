@@ -1,13 +1,15 @@
 ---
-layout: archive
-title: "CV"
+layout: academic
+title: "Curriculum vitae"
+eyebrow: "ACADEMIC BACKGROUND"
+description: "Education, research experience, skills, and academic service."
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="cv-body" markdown="1">
 
 Contact
 ======
@@ -51,9 +53,9 @@ My research includes: **AI4Safety** (the application of machine learning & deep 
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <ol class="cv-publications">{% for post in site.publications reversed %}
+    <li><a href="{{ post.paperurl | default: post.source | default: post.url }}">{{ post.title }}</a><small>{{ post.venue }} · {{ post.date | date: "%Y" }}</small></li>
+  {% endfor %}</ol>
   
 Skills
 ======
@@ -72,9 +74,7 @@ Skills
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  <p><a href="/talks/">Conference papers, talks, and poster presentations</a></p>
   
   
 Service and leadership
@@ -96,3 +96,5 @@ Special Prize Scholarship, China University of Mining and Technology (Beijing), 
 * Excellent Thesis Award, China University of Mining and Technology (Beijing), 2020.
 * First Prize (Beijing Division), China Undergraduate Mathematical Contest in Modeling (MCM), 2018.
 * Meritorious Winner, Mathematical Contest in Modeling (MCM, USA) (Top 8%), 2018.
+
+</div>

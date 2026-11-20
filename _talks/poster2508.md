@@ -1,11 +1,13 @@
 ---
-title: "Poster — [Machine learning-enhanced high-resolution exposure assessment of ultrafine particles]"
+title: "Machine learning-enhanced high-resolution exposure assessment of ultrafine particles"
 collection: talks
 type: "Poster"
+display_type: "Poster presentation"
+paperurl: "https://doi.org/10.1038/s41467-025-56581-8"
 venue: "The 3rd International Conference on Urban Science and Intelligence — Outstanding Poster Award, 2025"
 date: 2025-08-21
 location: "Bali, Indonesia"
-thumb: "https://github.com/Jyyd/jyyd.github.io/tree/master/images/poster202508.jpg"   # 上传你的海报缩略图并修改路径
+thumb: "/images/poster202508.jpg"
 # poster: "/assets/posters/asram2024-poster.pdf"             # 可选：海报 PDF 链接
 authors: "Yudie Jianyao*, Hongyong Yuan*, Guofeng Su, Jing Wang, Wenguo Weng & Xiaole Zhang#"
 ---

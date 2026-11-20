@@ -1,4 +1,8 @@
 ---
+authors: "Kai Wang, Wei Zhao, Yuan Yuan, Yudie Jianyao, Yanan Song, Peifeng Hu, Jingwei Huang"
+venue: "Emergency Management Science and Technology"
+thumb: "/assets/images/pubs/research-concept.svg"
+image_alt: "Decorative safety research illustration; not a figure from the paper"
 title: "Influence of open and closed windows on the vertical spread characteristics of fire"
 collection: publications
 category: manuscripts

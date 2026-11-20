@@ -1,34 +1,25 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
+eyebrow: "RESEARCH OUTPUT"
+description: "Journal articles and conference papers, spanning machine learning, environmental exposure, and safety science."
 permalink: /publications/
 author_profile: true
 ---
-
-
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include publication-summary.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+<nav class="section-nav" aria-label="Publication categories"><a href="#journal-articles">Journal articles</a><a href="#conference-papers">Conference papers</a><a href="https://scholar.google.com/citations?user=FAt6AtMAAAAJ">Google Scholar</a></nav>
+<section class="home-section" id="journal-articles">
+  <div class="home-section-heading"><div><p class="home-eyebrow">PEER-REVIEWED RESEARCH</p><h2>Journal articles</h2></div></div>
+  <div class="research-cards">
   {% for post in site.publications reversed %}
-    {% include publication-summary.html %}
+    {% if post.category == 'manuscripts' %}{% include research-card.html show_abstract=true %}{% endif %}
   {% endfor %}
-{% endif %}
-
-
-
+  </div>
+</section>
+<section class="home-section" id="conference-papers">
+  <div class="home-section-heading"><div><p class="home-eyebrow">CONFERENCE CONTRIBUTIONS</p><h2>Conference papers</h2></div></div>
+  <div class="research-cards">
+  {% for post in site.publications reversed %}
+    {% if post.category == 'conferences' %}{% include research-card.html show_abstract=true %}{% endif %}
+  {% endfor %}
+  </div>
+</section>
