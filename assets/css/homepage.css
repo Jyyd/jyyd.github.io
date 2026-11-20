@@ -9,6 +9,8 @@
   line-height: 1.7;
   padding-top: 12px;
 }
+body:has(.academic-home) .masthead__menu-item--lg a { color: #514398; white-space: nowrap; }
+body:has(.academic-home) .masthead .greedy-nav .visible-links li:first-child { white-space: nowrap; text-wrap: nowrap; }
 .academic-home *, .academic-home *::before, .academic-home *::after { box-sizing: border-box; }
 .academic-home a { color: #5553b9; text-decoration: none; }
 .academic-home a:hover { color: #38339b; text-decoration: underline; }
