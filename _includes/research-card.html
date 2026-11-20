@@ -7,7 +7,7 @@
   <div class="research-card__body">
     <div class="research-card__label">{{ post.display_type | default: 'Journal article' }} <span>{{ post.date | date: '%Y' }}</span></div>
     <h3><a href="{{ paper_link }}">{{ post.title }}</a></h3>
-    <p class="research-card__authors">{{ post.authors | escape | replace: 'Yudie Jianyao', '<strong>Yudie Jianyao</strong>' }}</p>
+    <p class="research-card__authors">{{ post.authors | remove: '*' | remove: '#' | escape | replace: 'Yudie Jianyao', '<strong>Yudie Jianyao</strong>' }}</p>
     <p class="research-card__venue">{{ post.venue }}</p>
   </div>
 </article>
