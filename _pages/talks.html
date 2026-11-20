@@ -11,6 +11,17 @@ author_profile: true
 
 {% endif %}
 
+{% for post in site.publications reversed %}
+  {% if post.category == 'conferences' %}
+    {% include publication-summary.html %}
+  {% endif %}
+{% endfor %}
+
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% if post.type == 'Poster' %}
+    <article class="publication-summary">
+      <h3>{{ post.title | escape }}</h3>
+      {{ post.content | split: '## Abstract:' | last | markdownify }}
+    </article>
+  {% endif %}
 {% endfor %}

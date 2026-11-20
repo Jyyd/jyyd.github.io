@@ -1,13 +1,3 @@
-<!--
- * @Author: JYYD jyyd23@mails.tsinghua.edu.cn
- * @Date: 2025-09-19 01:04:40
- * @LastEditors: JYYD jyyd23@mails.tsinghua.edu.cn
- * @LastEditTime: 2025-09-29 14:59:10
- * @FilePath: \jyyd.github.io\_pages\about.md
- * @Description: 
- * 
- * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
--->
 ---
 permalink: /
 title: About Me
@@ -17,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome JYYD Homepage 🤝
+# Welcome to JYYD's Homepage 🤝
 > 🎯 **Availability (Postdoc)**  
 > Expected Ph.D. completion: **June 2026**. I will be available for postdoctoral positions from **July 2026** and warmly welcome enquiries or informal chats about potential roles or collaborations: [jyyd23@mails.tsinghua.edu.cn](mailto:jyyd23@mails.tsinghua.edu.cn).
 
@@ -60,9 +50,9 @@ I welcome collaboration, discussion, and questions from faculty, peers, and stud
 My research includes: **AI4Safety** (the application of machine learning & deep learning to physical-world public-safety problems such as emergency management and disaster response — *not* cybersecurity), **atmospheric pollutant diffusion prediction**, **data assimilation for hazardous-chemical leakage forecasting**, and **probabilistic risk analysis**. 
 
 ## Publications
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <div class="publications">{% for post in site.publications reversed %}
+    {% include publication-summary.html %}
+  {% endfor %}</div>
 
 ## 📚 Selected projects 
 
