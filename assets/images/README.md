@@ -60,6 +60,7 @@ image_alt: "Presentation at APSS 2025"
 | `pubs/2026-jhm-cheng.png` | 汽油泄漏蒸发风险论文的模型框架图 |
 | `pubs/2026-jhm-dong.png` | 电动汽车消防废水论文的图形摘要 |
 | `talks/2025-urban-science-poster.jpg` | 2025 城市科学会议海报 |
+| `talks/2025-apss.jpg` | APSS 2025 会议报告照片 |
 | `talks/2024-psam-presentation.jpg` | 2024 PSAM 会议报告图片 |
 | `shared/dispersion-concept.svg` | 旧版概念插图，已不用于论文卡片 |
 | `shared/research-concept.svg` | 旧版装饰插图，已不用于论文卡片 |
