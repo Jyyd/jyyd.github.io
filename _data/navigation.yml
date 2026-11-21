@@ -6,6 +6,7 @@
 
 main:
   - title: "Publications"
+    icon: "fas fa-book-open"
     url: /publications/
 
 
@@ -19,9 +20,11 @@ main:
     # url: /year-archive/
     
   - title: "CV"
+    icon: "fas fa-file-lines"
     url: /cv/
 
   - title: "Beyond Research"
+    icon: "fas fa-camera-retro"
     url: /beyond-research/
     
   # - title: "Guide"
