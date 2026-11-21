@@ -1,6 +1,8 @@
 ---
+publication_type: poster
+type_rank: 3
 author_rank: 1
-publication_sort: "01-7974-05-11"
+publication_sort: "01-7974-05-11-3"
 title: "Machine learning-enhanced high-resolution exposure assessment of ultrafine particles"
 collection: talks
 type: "Poster"

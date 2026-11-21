@@ -1,8 +1,10 @@
 ---
+publication_type: journal
+type_rank: 1
 online_year: 2026
 metadata_source: "https://www.sciencedirect.com/science/article/pii/S0360132326006025"
 author_rank: 1
-publication_sort: "01-7973-05-31"
+publication_sort: "01-7973-05-31-1"
 featured: true
 authors: "Yudie Jianyao, Yang Yu, Jiale Zhang, Lida Huang, Tao Chen, Minghua Lv, Guofeng Su, Wenguo Weng, Hongyong Yuan, Xiaole Zhang"
 venue: "Building and Environment"

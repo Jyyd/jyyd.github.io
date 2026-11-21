@@ -1,8 +1,10 @@
 ---
+publication_type: journal
+type_rank: 1
 online_year: 2026
 metadata_source: "https://pubmed.ncbi.nlm.nih.gov/42822282/"
 author_rank: 8
-publication_sort: "08-7973-03-31"
+publication_sort: "08-7973-03-31-1"
 authors: "Qiang Dong, Zhan Wang, Qi Zhang, Yuheng Cheng, Huifeng Li, Yijia He, Xin Zheng, Yudie Jianyao, Jiale Zhang, Yang Yu, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Hazardous Materials"
 thumb: "/assets/images/pubs/2026-jhm-dong.png"

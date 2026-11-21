@@ -1,8 +1,10 @@
 ---
+publication_type: journal
+type_rank: 1
 online_year: 2025
 metadata_source: "https://www.sciencedirect.com/science/article/pii/S2352152X2504023X"
 author_rank: 2
-publication_sort: "02-7973-12-31"
+publication_sort: "02-7973-12-31-1"
 authors: "Qiang Dong, Yudie Jianyao, Shenlin Yang, Zhan Wang, Xin Zheng, Qi Zhang, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Energy Storage"
 thumb: "/assets/images/pubs/2026-jes.png"

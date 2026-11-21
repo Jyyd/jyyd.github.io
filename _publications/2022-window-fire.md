@@ -1,6 +1,8 @@
 ---
+publication_type: journal
+type_rank: 1
 author_rank: 4
-publication_sort: "04-7977-10-31"
+publication_sort: "04-7977-10-31-1"
 authors: "Kai Wang, Wei Zhao, Yuan Yuan, Yudie Jianyao, Yanan Song, Peifeng Hu, Jingwei Huang"
 venue: "Emergency Management Science and Technology"
 thumb: "/assets/images/pubs/2022-EMST.png"

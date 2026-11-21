@@ -1,8 +1,10 @@
 ---
+publication_type: journal
+type_rank: 1
 online_year: 2025
 metadata_source: "https://pubmed.ncbi.nlm.nih.gov/41313867/"
 author_rank: 2
-publication_sort: "02-7973-12-17"
+publication_sort: "02-7973-12-17-1"
 authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, Qi Zhang, Yanyi Liuchen, Xiaole Zhang"
 venue: "Journal of Hazardous Materials"
 thumb: "/assets/images/pubs/2026-jhm-cheng.png"

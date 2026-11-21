@@ -215,3 +215,17 @@ body:has(.academic-shell) { background: #faf9fc; }
   .sidebar-scroll-controls { display: none !important; }
 }
 @media (prefers-reduced-motion: reduce) { .cosmic-scroll { transition: none; } .cosmic-scroll .cosmic-wings, .cosmic-scroll .cosmic-star { animation: none !important; } }
+
+.intro-emoji { display: inline-block; margin-right: .25em; font-size: 1.1em; vertical-align: -.04em; }
+.home-topics span { font-weight: 700; font-style: italic; }
+.academic-home .paper-year { display: inline-block; margin-left: 7px; padding: 1px 9px; border-radius: 5px; background: #efe7f8; color: #62438c; font-size: 17px; font-style: normal; font-weight: 700; line-height: 1.6; vertical-align: baseline; }
+.publication-type { display: inline-block; margin-bottom: 10px; padding: 2px 9px; border: 1px solid #e0d5ec; border-radius: 5px; color: #6b4c91; background: #f7f2fc; font-size: 15px; font-weight: 500; line-height: 1.6; }
+.publication-type--conference { color: #42688d; border-color: #d2e0ee; background: #f0f6fc; }
+.publication-type--poster { color: #95607b; border-color: #ecd6e2; background: #fcf3f8; }
+.academic-page.publications-page > .section-page-header { background: none; border: 0; border-radius: 0; box-shadow: none; padding: 0 0 20px; margin: 0 0 18px; }
+.publications-page .publication-year-list { background: transparent; border: 0; border-radius: 0; overflow: visible; }
+.publications-page .research-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
+.publications-page .publication-year-list > .research-card + .research-card { border-top: 1px solid #e4dfeb; }
+.publications-page .research-card__image { background: transparent; padding-left: 0; }
+.publications-page .research-card__body { padding-right: 0; }
+@media (max-width: 540px) { .publications-page .research-card__image { padding-right: 0; } .publications-page .research-card__body { padding-left: 0; } }
