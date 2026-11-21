@@ -3,13 +3,15 @@
 {% assign card_heading = include.heading | default: 'h3' %}
 {% assign card_image = post.thumb %}
 {% assign card_image_alt = post.image_alt | default: post.title %}
+{% assign display_image = card_image | replace: '/assets/images/', '/assets/images/display/' | replace: '.png', '.svg' | replace: '.jpg', '.svg' %}
 {% if post.thumb contains '/shared/' or post.thumb == nil %}
   {% assign card_image = '/assets/images/shared/image-placeholder.svg' %}
   {% assign card_image_alt = 'Image to be added' %}
+  {% assign display_image = card_image %}
 {% endif %}
 <article class="research-card">
   <a class="research-card__image" href="{{ paper_link }}" aria-label="Read {{ post.title | escape }}">
-    <span class="image-mat{% if post.people_photo %} soft-photo{% endif %}"><img src="{{ card_image | relative_url }}" alt="{{ card_image_alt | escape }}" loading="lazy" width="480" height="320"></span>
+    <span class="image-mat"><img src="{{ display_image | relative_url }}" alt="{{ card_image_alt | escape }}" loading="lazy" width="1200" height="800"></span>
   </a>
   <div class="research-card__body">
     <{{ card_heading }} class="research-card__title"><a href="{{ paper_link }}">{{ post.title }}</a></{{ card_heading }}>

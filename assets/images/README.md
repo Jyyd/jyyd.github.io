@@ -78,4 +78,10 @@ image_alt: "Presentation at APSS 2025"
 把图片放入文件夹只是本地修改。还需要将图片与对应 Markdown 记录一起提交并推送到 GitHub，GitHub Pages 部署成功后才会在线显示。
 # Life photos
 
+## 统一透明画布
+
+原图仍保存在 `pubs/`、`talks/`、`life/`。网页展示使用 `display/` 下统一为 1200 × 800（3:2）的 SVG 透明画布：原图以原始文件字节嵌入，等比居中，不裁剪、不拉伸。人物照片只在展示层做轻微边缘柔化。
+
+添加或替换原图后，在仓库根目录运行 `powershell -File scripts/New-ImageMats.ps1`，然后一起提交原图和生成的展示文件。点击生活照仍可查看原图。
+
 个人生活和会议旅行照片放在 `assets/images/life/`，在 `_pages/beyond-research.html` 添加图片与说明。请保留摄影署名：life2 为 Xinsheng Xu，life3、life4 为 Yiping Lin。点击页面照片可查看原图。
