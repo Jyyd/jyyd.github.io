@@ -91,7 +91,7 @@ Core contributor to three intellectual property applications: two registered sof
 * **Vice President, Graduate Student Union**, School of Safety Science, Tsinghua University · *09/2024 – 09/2025*
 * **Head, Academic Department**, Department of Engineering Physics, Tsinghua University · *09/2024 – 09/2025*
 * **Class President, First-Year Graduate Class**, School of Safety Science, Tsinghua University · *09/2024 – 09/2025*
-  - The class received the Tsinghua University Advanced Graduate Collective honor for 2024–2025 (Top 8%).
+  - The class received the 2024 Tsinghua University Advanced Graduate Collective Award (Top 8%).
 * **Teaching Assistant, Decision Methodology**, undergraduate course, Tsinghua University · *09/2023 – 09/2024*
 * **Class President, Ph.D. Class 231**, Department of Engineering Physics, Tsinghua University · *09/2023 – 09/2024*
 * **Academic Affairs Representative, Safety Engineering Master's Class 20**, Department of Engineering Physics, Tsinghua University · *09/2021 – 09/2023*
@@ -107,6 +107,7 @@ Core contributor to three intellectual property applications: two registered sof
 * Outstanding Poster Award, The 3rd International Conference on Urban Science and Intelligence, Aug. 2025.
 * Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum & Tsinghua University Doctoral Academic Forum, Session 784, Apr. 2025.
 * Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, Dec. 2024.
+* Tsinghua University Advanced Graduate Collective Award (Top 8%), 2024 · Class award.
 * Outstanding Graduate (Top 2%), China University of Mining and Technology (Beijing), Jun. 2020.
 * Excellent Thesis Award, China University of Mining and Technology (Beijing), Jun. 2020.
 * National Scholarship Representative (Top 1%), Dec. 2019.
