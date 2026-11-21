@@ -16,17 +16,21 @@ Contact
 
 Education
 ======
- - **Ph.D. in Safety Science and Engineering**, School of Safety Science, Tsinghua University, Beijing, China  
-  **09/2020 – 06/2026**  
-  - **Dissertation:** “Research on the Transport Evolution and Quantitative Risk of Hazardous Substances”.  
-  - **Supervisor:** Assistant Professor Xiaole Zhang.  
-  *(Direct-entry Ph.D.; transferred from the M.Sc. track — master’s degree not conferred.)*
-
-- **B.Sc. in Safety Engineering**, School of Emergency Management and Safety Engineering, China University of Mining and Technology (Beijing), Beijing, China  
-  **09/2016 – 06/2020**  
-  - **Dissertation:** “Influence of open and closed windows on the vertical spread characteristics of fire”.  
-  - **Supervisor:** Professor Wei Zhao.
-
+<div class="cv-education" markdown="0">
+  <article class="education-entry">
+    <h3 class="school-heading"><img class="school-logo" src="/assets/images/institutions/thu.png" alt="Tsinghua University emblem" width="40" height="40"><span>Tsinghua University</span></h3>
+    <p><strong>Ph.D. in Safety Science and Engineering</strong>, School of Safety Science, Beijing, China</p>
+    <p>09/2020 – 06/2026 · Supervisor: Assistant Professor Xiaole Zhang</p>
+    <p><strong>Dissertation:</strong> Research on the Transport Evolution and Quantitative Risk of Hazardous Substances</p>
+    <p>Direct-entry Ph.D.; transferred from the M.Sc. track — master’s degree not conferred.</p>
+  </article>
+  <article class="education-entry">
+    <h3 class="school-heading"><img class="school-logo" src="/assets/images/institutions/cumtb.png" alt="CUMTB emblem" width="40" height="40"><span>China University of Mining and Technology (Beijing)</span></h3>
+    <p><strong>B.Sc. in Safety Engineering</strong>, School of Emergency Management and Safety Engineering, Beijing, China</p>
+    <p>09/2016 – 06/2020 · Supervisor: Professor Wei Zhao</p>
+    <p><strong>Dissertation:</strong> Influence of open and closed windows on the vertical spread characteristics of fire</p>
+  </article>
+</div>
 
 Research Experience
 ======

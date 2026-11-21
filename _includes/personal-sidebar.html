@@ -1,0 +1,36 @@
+{% assign profile = site.author %}
+<aside class="sidebar personal-sidebar" aria-label="Profile, navigation and contact">
+  <div class="profile-card{% if page.url == '/' %} profile-card--home{% endif %}">
+    {% if page.url == '/' %}
+    <img class="profile-card__portrait" src="{{ profile.avatar | prepend: '/images/' | relative_url }}" alt="{{ profile.name }}" width="175" height="230">
+    {% endif %}
+    <a class="profile-card__name" href="{{ '/' | relative_url }}">{{ profile.name }}</a>
+    <p class="profile-card__bio">{{ profile.bio }}<br>{{ profile.employer }}</p>
+    <nav class="profile-navigation" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+    </nav>
+    {% if page.url == '/publications/' %}
+    <nav class="sidebar-toc" aria-label="Publication categories">
+      <a href="#journal-articles">Journal articles</a>
+      <a href="#presentations">Conference papers</a>
+      <a href="#posters">Posters</a>
+    </nav>
+    {% elsif page.url == '/cv/' %}
+    <nav class="sidebar-toc" aria-label="CV sections">
+      <a href="#education">Education</a>
+      <a href="#research-experience">Research experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#prizes-awards-fellowships">Honors &amp; Awards</a>
+    </nav>
+    {% endif %}
+    <ul class="profile-contacts">
+      <li><a href="mailto:{{ profile.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a></li>
+      {% if profile.googlescholar %}<li><a href="{{ profile.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>{% endif %}
+      {% if profile.orcid %}<li><a href="{{ profile.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i>ORCID</a></li>{% endif %}
+      {% if profile.researchgate %}<li><a href="{{ profile.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>ResearchGate</a></li>{% endif %}
+      {% if profile.github %}<li><a href="https://github.com/{{ profile.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>{% endif %}
+    </ul>
+  </div>
+</aside>

@@ -19,11 +19,12 @@ body:has(.academic-home) .masthead .greedy-nav .visible-links li:first-child { w
 .academic-home .home-intro h1 { margin: 0 0 25px; font-size: 32px; font-weight: 650; line-height: 1.35; letter-spacing: -.025em; }
 .academic-home .home-lead, .academic-home .home-bio { margin: 0 0 18px; font-size: 18px; line-height: 1.9; }
 .home-topics { display: flex; flex-wrap: wrap; gap: 10px; margin: 25px 0 2px; }
-.home-topics span { padding: 7px 14px; border: 1px solid #e0d8ee; border-radius: 7px; background: #faf8fe; color: #63567e; font-size: 16px; }
+.home-topics span { padding: 7px 14px; border: 1px solid #e0d8ee; border-radius: 7px; background: #faf8fe; color: #63567e; font-size: 16px; font-style: italic; }
 .home-section { margin-top: 44px; }
-.home-section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 23px; }
+.home-section-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin-bottom: 23px; }
 .academic-home .home-section h2 { margin: 0; padding: 0; border: 0; font-size: 26px; line-height: 1.4; font-weight: 650; letter-spacing: -.025em; }
-.home-all-link { flex-shrink: 0; font-size: 16px; }
+.academic-home .home-all-link { flex-shrink: 0; display: inline-block; padding: 8px 13px; border-radius: 7px; background: #6a529d; color: #fff; font-size: 16px; font-weight: 600; line-height: 1.6; }
+.academic-home .home-all-link:hover { background: #503b7d; color: #fff; text-decoration: none; }
 .research-cards { display: grid; gap: 22px; }
 .research-card { display: grid; grid-template-columns: 250px minmax(0, 1fr); align-items: center; overflow: hidden; border: 1px solid var(--home-border); border-radius: 9px; background: var(--home-card); }
 .research-card:hover { border-color: #c9bbdf; }
@@ -56,6 +57,39 @@ body:has(.academic-home) .masthead .greedy-nav .visible-links li:first-child { w
 .cv-body li > ul { margin-top: 10px; color: var(--home-muted); font-size: 17px; }
 .paper-content { font-size: 18px; line-height: 1.9; padding: 0 3px 30px; overflow-wrap: anywhere; }
 .paper-content h2 { font-size: 26px; margin-top: 30px; }
+.sidebar.personal-sidebar { padding-top: 0; height: auto; margin-top: 18px; overflow-y: auto; max-height: calc(100vh - 110px); position: sticky; top: 90px; scrollbar-width: thin; }
+.profile-card { padding: 22px 16px; border: 1px solid #e4d8f1; border-radius: 13px; background: #f7f2fc; color: #51455f; }
+.personal-sidebar .profile-card__portrait { display: block; width: 100%; max-width: 160px; height: auto; margin: 0 auto 20px; border-radius: 50%; border: 4px solid #fff; }
+.profile-card__name { display: block; margin: 0 0 9px; color: #453554; font-size: 20px; font-weight: 650; text-decoration: none; line-height: 1.5; }
+.personal-sidebar .profile-card__bio { margin: 0 0 20px; font-size: 16px; line-height: 1.8; }
+.profile-navigation { display: grid; gap: 5px; border-top: 1px solid #e4d8ef; padding-top: 15px; }
+.profile-navigation a { padding: 7px 9px; border-radius: 6px; color: #655176; font-size: 16px; line-height: 1.6; text-decoration: none; }
+.profile-navigation a[aria-current="page"] { background: #e9dff4; color: #50336f; font-weight: 650; }
+.profile-navigation a:hover, .sidebar-toc a:hover { background: #eee5f6; text-decoration: none; }
+.sidebar-toc { display: grid; gap: 4px; padding: 10px 0 4px 9px; margin: 2px 0 0; border-left: 2px solid #d9c7e9; }
+.sidebar-toc a { color: #6a527f; font-size: 16px; line-height: 1.6; text-decoration: none; padding: 5px 6px; border-radius: 4px; }
+.profile-contacts { list-style: none; padding: 15px 0 0 !important; margin: 17px 0 0 !important; border-top: 1px solid #e4d8ef; }
+.personal-sidebar .profile-contacts li { margin: 0 0 10px; font-size: 16px; line-height: 1.5; }
+.personal-sidebar .profile-contacts li:last-child { margin-bottom: 0; }
+.profile-contacts a { color: #665274; text-decoration: none; }
+.profile-contacts a:hover { color: #43295d; text-decoration: underline; }
+.profile-contacts i { display: inline-block; width: 20px; margin-right: 7px; text-align: center; color: #89749c; }
+.profile-card a:focus-visible { outline: 3px solid #b7a8dd; outline-offset: 3px; }
+.academic-home .school-heading { display: flex; align-items: center; gap: 10px; }
+.academic-home .school-logo { display: block; width: 40px; height: 40px; object-fit: contain; flex-shrink: 0; }
+.cv-education .education-entry { padding-bottom: 20px; margin-bottom: 25px; border-bottom: 1px solid var(--home-border); }
+.cv-education .education-entry:last-child { margin-bottom: 0; }
+.academic-home .cv-education .school-heading { font-size: 21px; margin: 0 0 14px; }
+@media (max-width: 1023px) {
+  .sidebar.personal-sidebar { float: none; width: 100%; max-width: none; position: static; max-height: none; overflow: visible; margin: 0 0 25px; padding: 0; }
+  .profile-card { padding: 20px 22px; }
+  .personal-sidebar .profile-card__portrait { max-width: 115px; }
+  .profile-navigation { display: flex; flex-wrap: wrap; gap: 6px; }
+  .profile-navigation a { padding: 7px 15px; }
+  .sidebar-toc { display: flex; flex-wrap: wrap; padding-left: 0; border-left: 0; gap: 7px; }
+  .profile-contacts { display: flex; flex-wrap: wrap; gap: 12px 21px; }
+  .personal-sidebar .profile-contacts li { margin: 0; }
+}
 .education-honors { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 38px; padding: 30px; border: 1px solid #f0edf3; border-radius: 10px; background: var(--home-card); box-shadow: 0 3px 15px #30223d07; }
 .academic-home .education-honors h2 { margin: 0 0 22px; font-size: 25px; line-height: 1.4; }
 .education-entry { margin-bottom: 28px; }

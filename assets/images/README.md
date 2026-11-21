@@ -13,6 +13,7 @@
 | 论文配图／图形摘要 | `assets/images/pubs/` | `/assets/images/pubs/文件名.png` |
 | 会议报告／海报图片 | `assets/images/talks/` | `/assets/images/talks/文件名.jpg` |
 | 多篇文章共用的装饰或概念示意图 | `assets/images/shared/` | `/assets/images/shared/文件名.svg` |
+| 校徽 | `assets/images/institutions/` | `/assets/images/institutions/thu.png`、`/assets/images/institutions/cumtb.png` |
 | 个人头像 | `images/profile.png` | 由 `_config.yml` 的 `author.avatar` 配置 |
 
 原来的 `images/` 目录还包含网站图标、模板演示图片和旧链接兼容文件。新增论文和会议图片请使用上表中的专用目录。
