@@ -54,7 +54,11 @@ image_alt: "Presentation at APSS 2025"
 | --- | --- |
 | `pubs/natcom-2025.png` | Nature Communications 论文的原有研究框架图 |
 | `pubs/bae-2026.png` | Building and Environment 论文的真实网络结构图 |
-| `pubs/2023-jssr.jpg` | 粮食储存监管论文的原有研究框架图；沿用原文件名 |
+| `pubs/2023-jssr.png` | 粮食储存监管论文的新版研究框架图 |
+| `pubs/2022-EMST.jpg` | 开窗／闭窗对火灾垂直传播影响论文的建筑模型图 |
+| `pubs/2026-jes.png` | 电动汽车热失控亚微米颗粒论文的图形摘要 |
+| `pubs/2026-jhm-cheng.png` | 汽油泄漏蒸发风险论文的模型框架图 |
+| `pubs/2026-jhm-dong.jpg` | 电动汽车消防废水论文的图形摘要 |
 | `talks/2025-urban-science-poster.jpg` | 2025 城市科学会议海报 |
 | `talks/2024-psam-presentation.jpg` | 2024 PSAM 会议报告图片 |
 | `shared/dispersion-concept.svg` | 旧版概念插图，已不用于论文卡片 |

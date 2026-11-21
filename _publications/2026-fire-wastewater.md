@@ -3,8 +3,8 @@ author_rank: 8
 publication_sort: "08-7973-04-03"
 authors: "Qiang Dong, Zhan Wang, Qi Zhang, Yuheng Cheng, Huifeng Li, Yijia He, Xin Zheng, Yudie Jianyao, Jiale Zhang, Yang Yu, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Hazardous Materials"
-thumb: "/assets/images/shared/research-concept.svg"
-image_alt: "Decorative safety research illustration; not a figure from the paper"
+thumb: "/assets/images/pubs/2026-jhm-dong.jpg"
+image_alt: "Graphical abstract of firefighting wastewater pollutants and cytotoxicity from electric vehicle fires"
 title: "Battery-type-associated pollutant fingerprints and cytotoxicity of firefighting wastewater from full-scale electric vehicle fires"
 collection: publications
 category: manuscripts

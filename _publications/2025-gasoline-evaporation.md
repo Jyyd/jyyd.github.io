@@ -3,8 +3,8 @@ author_rank: 2
 publication_sort: "02-7974-02-31"
 authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, et al."
 venue: "Journal of Hazardous Materials"
-thumb: "/assets/images/shared/research-concept.svg"
-image_alt: "Decorative safety research illustration; not a figure from the paper"
+thumb: "/assets/images/pubs/2026-jhm-cheng.png"
+image_alt: "Physics-guided stacking framework for gasoline evaporation risk assessment"
 title: "Physics-Guided Machine Learning for Evaporation Risk Assessment during Gasoline Spill Accidents"
 collection: publications
 category: manuscripts
