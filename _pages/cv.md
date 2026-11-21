@@ -77,7 +77,7 @@ Skills
 
 Presentations
 ======
-  <p><a href="/presentations/">Conference papers and poster presentations</a></p>
+  <p><a href="/publications/#presentations">Conference papers and poster presentations</a></p>
   
   
 Service and leadership

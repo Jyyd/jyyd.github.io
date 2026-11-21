@@ -58,6 +58,7 @@ image_alt: "Presentation at APSS 2025"
 | `talks/2024-psam-presentation.jpg` | 2024 PSAM 会议报告图片 |
 | `shared/dispersion-concept.svg` | 旧版概念插图，已不用于论文卡片 |
 | `shared/research-concept.svg` | 旧版装饰插图，已不用于论文卡片 |
+| `shared/image-placeholder.svg` | 缺少真实配图时显示的统一占位图；新增真实图片后修改对应记录的 `thumb` 即可 |
 
 如果只想给一篇论文换图，请上传该论文独有的新文件并修改它的 `thumb`。不要覆盖 `shared/` 中的共用图片，否则多篇论文会同时改变。
 

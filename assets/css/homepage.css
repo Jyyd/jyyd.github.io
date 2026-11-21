@@ -38,12 +38,6 @@ body:has(.academic-home) .masthead .greedy-nav .visible-links li:first-child { w
 .research-card__authors strong { color: #58447f; font-weight: 650; }
 .academic-home .research-card__venue { margin: 0; font-size: 16px; font-weight: 600; color: #66528e; line-height: 1.65; }
 .paper-year { font-weight: 400; color: var(--home-muted); white-space: nowrap; }
-.research-card--text { grid-template-columns: minmax(0, 1fr); }
-.research-card--text .research-card__body { grid-column: 1; padding: 25px 28px; }
-.card-abstract { margin-top: 17px; border-top: 1px solid var(--home-border); padding-top: 12px; }
-.card-abstract summary { cursor: pointer; color: #66528e; font-size: 16px; }
-.card-abstract > div { padding-top: 12px; font-size: 16px; line-height: 1.9; color: var(--home-muted); }
-.academic-home .card-abstract p { font-size: inherit; margin: 0 0 12px; }
 .section-page-header { margin-bottom: 30px; padding: 3px 0 23px; border-bottom: 2px solid #d9cdea; }
 .academic-home .section-page-header h1 { margin: 0; font-size: 32px; font-weight: 650; line-height: 1.4; letter-spacing: -.025em; }
 .section-nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 32px; }

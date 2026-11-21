@@ -1,26 +1,39 @@
 ---
 layout: academic
-title: "Publications"
+title: "Publications & presentations"
 description: "Journal articles and conference papers, spanning machine learning, environmental exposure, and safety science."
 permalink: /publications/
+redirect_from:
+  - /presentations/
+  - /presentations
+  - /talks/
+  - /talks
 author_profile: true
 ---
-<nav class="section-nav" aria-label="Publication categories"><a href="#journal-articles">Journal articles</a><a href="#conference-papers">Conference papers</a><a href="https://scholar.google.com/citations?user=FAt6AtMAAAAJ">Google Scholar</a></nav>
+<nav class="section-nav" aria-label="Publication categories"><a href="#journal-articles">Journal articles</a><a href="#presentations">Conference papers</a><a href="#posters">Posters</a><a href="https://scholar.google.com/citations?user=FAt6AtMAAAAJ">Google Scholar</a></nav>
 <section class="home-section" id="journal-articles">
   <div class="home-section-heading"><div><h2>Journal articles</h2></div></div>
   <div class="research-cards">
   {% assign ordered_publications = site.publications | sort: 'publication_sort' %}
   {% for post in ordered_publications %}
-    {% if post.category == 'manuscripts' %}{% include research-card.html show_abstract=true %}{% endif %}
+    {% if post.category == 'manuscripts' %}{% include research-card.html %}{% endif %}
   {% endfor %}
   </div>
 </section>
-<section class="home-section" id="conference-papers">
+<section class="home-section" id="presentations">
   <div class="home-section-heading"><div><h2>Conference papers</h2></div></div>
   <div class="research-cards">
   {% assign ordered_publications = site.publications | sort: 'publication_sort' %}
   {% for post in ordered_publications %}
-    {% if post.category == 'conferences' %}{% include research-card.html show_abstract=true %}{% endif %}
+    {% if post.category == 'conferences' %}{% include research-card.html %}{% endif %}
+  {% endfor %}
+  </div>
+</section>
+<section class="home-section" id="posters">
+  <div class="home-section-heading"><h2>Posters</h2></div>
+  <div class="research-cards">
+  {% for post in site.talks reversed %}
+    {% if post.type == 'Poster' %}{% include research-card.html %}{% endif %}
   {% endfor %}
   </div>
 </section>

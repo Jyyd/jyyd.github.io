@@ -20,16 +20,7 @@ redirect_from:
   <div class="home-section-heading"><h2 id="papers-heading">Selected publications</h2><a class="home-all-link" href="{{ '/publications/' | relative_url }}">All publications</a></div>
   <div class="research-cards">
   {% for post in ordered_publications %}
-    {% if post.featured and post.category == 'manuscripts' %}{% include research-card.html %}{% endif %}
-  {% endfor %}
-  </div>
-</section>
-
-<section class="home-section" aria-labelledby="conferences-heading">
-  <div class="home-section-heading"><h2 id="conferences-heading">Presentations</h2><a class="home-all-link" href="{{ '/presentations/' | relative_url }}">All presentations</a></div>
-  <div class="research-cards">
-  {% for post in ordered_publications %}
-    {% if post.featured and post.category == 'conferences' %}{% include research-card.html %}{% endif %}
+    {% if post.featured %}{% include research-card.html %}{% endif %}
   {% endfor %}
   </div>
 </section>
