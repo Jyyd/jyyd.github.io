@@ -47,6 +47,8 @@ redirect_from:
   <div class="education-row"><span class="education-year">2016–2020</span><div><h3>China University of Mining and Technology (Beijing)</h3><p>B.Sc. in Safety Engineering</p><p class="education-detail">Supervisor: Wei Zhao</p></div></div>
 </section>
 
+{% include language-card.html %}
+
 <section class="home-section" aria-labelledby="honors-heading">
   <div class="home-section-heading"><h2 id="honors-heading">Honors</h2><a class="home-all-link" href="{{ '/cv/' | relative_url }}">All honors</a></div>
   <div class="honor-row"><span>2025</span><div><h3>Deng Jiaxian Scholarship · 邓稼先奖学金</h3><p>Tsinghua University</p></div></div>

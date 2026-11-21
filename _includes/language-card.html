@@ -1,0 +1,11 @@
+{% assign language_data = site.data.github_languages %}
+{% if language_data.languages.size > 0 %}
+<section class="home-section" aria-labelledby="languages-heading">
+  <div class="language-card">
+    <div class="home-section-heading"><h2 id="languages-heading">Languages I use</h2><a href="https://github.com/{{ language_data.username }}?tab=repositories">GitHub</a></div>
+    {% include language-distribution.html languages=language_data.languages %}
+    <p class="language-note">Source-file sizes across {{ language_data.repository_count }} public repositories. Notebook files excluded.<br>Updated {{ language_data.updated | date: '%-d %B %Y' }}.</p>
+    <details class="language-raw"><summary>GitHub totals, including notebooks</summary><div>{% include language-distribution.html languages=language_data.all_languages %}</div></details>
+  </div>
+</section>
+{% endif %}
