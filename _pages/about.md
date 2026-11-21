@@ -41,16 +41,4 @@ redirect_from:
   <article class="project-note"><h3>Food security supervision</h3><p>Statistical analysis, anomaly detection, and machine learning for grain storage safety supervision.</p><a href="https://doi.org/10.1016/j.jnlssr.2022.09.004">Journal of Safety Science and Resilience</a></article>
 </section>
 
-<section class="home-section home-education" aria-labelledby="education-heading">
-  <div class="home-section-heading"><h2 id="education-heading">Education</h2><a class="home-all-link" href="{{ '/cv/' | relative_url }}">View CV</a></div>
-  <div class="education-row"><span class="education-year">2020–2026</span><div><h3>Tsinghua University</h3><p>Ph.D. program in Safety Science and Engineering</p><p class="education-detail">Supervisor: Xiaole Zhang</p></div></div>
-  <div class="education-row"><span class="education-year">2016–2020</span><div><h3>China University of Mining and Technology (Beijing)</h3><p>B.Sc. in Safety Engineering</p><p class="education-detail">Supervisor: Wei Zhao</p></div></div>
-</section>
-
-{% include language-card.html %}
-
-<section class="home-section" aria-labelledby="honors-heading">
-  <div class="home-section-heading"><h2 id="honors-heading">Honors</h2><a class="home-all-link" href="{{ '/cv/' | relative_url }}">All honors</a></div>
-  <div class="honor-row"><span>2025</span><div><h3>Deng Jiaxian Scholarship · 邓稼先奖学金</h3><p>Tsinghua University</p></div></div>
-  <div class="honor-row"><span>2025</span><div><h3>First-Class Comprehensive Scholarship · 综合一等奖学金</h3><p>Tsinghua University</p></div></div>
-</section>
+{% include education-honors.html %}

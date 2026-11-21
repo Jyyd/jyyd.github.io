@@ -1,6 +1,0 @@
-<div class="language-bar" role="img" aria-label="{% for language in include.languages %}{{ language.name }} {{ language.percent }} percent. {% endfor %}">
-  {% for language in include.languages %}<span style="width: {{ language.percent }}%; background-color: {{ language.color }};" title="{{ language.name }}: {{ language.percent }}%"></span>{% endfor %}
-</div>
-<ul class="language-legend">
-  {% for language in include.languages %}<li><span class="language-dot" style="background-color: {{ language.color }};" aria-hidden="true"></span><span>{{ language.name }}</span><strong>{{ language.percent }}%</strong></li>{% endfor %}
-</ul>
