@@ -219,6 +219,16 @@ body:has(.academic-shell) { background: #faf9fc; }
 .publication-type--conference { color: #42688d; border-color: #d2e0ee; background: #f0f6fc; }
 .publication-type--poster { color: #95607b; border-color: #ecd6e2; background: #fcf3f8; }
 .research-card__venue .publication-type { margin: 0 0 0 7px; font-style: normal; vertical-align: baseline; }
+.academic-page.cv-page > .section-page-header { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px 22px; padding: 0 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; }
+.cv-contact { font-size: 14px; font-weight: 400; white-space: nowrap; }
+.cv-contact i { margin-right: 5px; }
+.cv-skills { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.academic-home .cv-skill-group h3 { margin: 0 0 10px; font-size: 17px; font-weight: 600; }
+.skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.skill-tags span { padding: 3px 12px; border: 1px solid #e1d6ed; border-radius: 6px; background: #faf7fe; color: #635078; font-size: 16px; }
+.cv-publication-years .publication-year-list, .cv-publication-years .research-card { background: none; border: 0; border-radius: 0; box-shadow: none; }
+.cv-publication-years .research-card + .research-card { border-top: 1px solid #e4dfeb; }
+@media (max-width: 640px) { .cv-skills { grid-template-columns: 1fr; } }
 .academic-page.publications-page > .section-page-header { background: none; border: 0; border-radius: 0; box-shadow: none; padding: 0 0 20px; margin: 0 0 18px; }
 .publications-page .publication-year-list { background: transparent; border: 0; border-radius: 0; overflow: visible; }
 .publications-page .research-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; }

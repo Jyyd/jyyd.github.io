@@ -10,12 +10,6 @@ redirect_from:
 
 <div class="cv-body" markdown="1">
 <section class="cv-section" markdown="1">
-## Contact
-
-- [Email](mailto:jyyd23@mails.tsinghua.edu.cn)
-</section>
-
-<section class="cv-section" markdown="1">
 ## Education
 
 <div class="cv-education" markdown="0">
@@ -81,43 +75,35 @@ Core contributor to three intellectual property applications: two registered sof
 <section class="cv-section" markdown="1">
 ## Skills
 
-* Models: 
-  * Micro-scale dispersion model system GRAMM–GRAL
-* Computer skills:
-  * Python (Pandas, scikit-learn, Numpy, Geopandas, PyTorch, TensorFlow, Django)
-  * MATLAB
-  * C++
-  * SQL
-  * Neo4j
-  * ArcGIS
-  * 3ds Max
-  * Arduino
-</section>
-
-<section class="cv-section" markdown="1">
-## Presentations
-
-<p><a href="/publications/">Conference papers and poster presentations</a></p>
+<div class="cv-skills" markdown="0">
+  <div class="cv-skill-group"><h3>Dispersion models</h3><div class="skill-tags"><span>GRAMM–GRAL</span></div></div>
+  <div class="cv-skill-group"><h3>Programming &amp; databases</h3><div class="skill-tags"><span>Python</span><span>MATLAB</span><span>C++</span><span>SQL</span><span>Neo4j</span></div></div>
+  <div class="cv-skill-group"><h3>Python libraries</h3><div class="skill-tags"><span>Pandas</span><span>NumPy</span><span>GeoPandas</span><span>scikit-learn</span><span>PyTorch</span><span>TensorFlow</span><span>Django</span></div></div>
+  <div class="cv-skill-group"><h3>Tools</h3><div class="skill-tags"><span>ArcGIS</span><span>3ds Max</span><span>Arduino</span></div></div>
+</div>
 </section>
 
 <section class="cv-section" markdown="1">
 ## Service and leadership
 
-* *2024.09-2025.09*	**Vice President, Graduate Student Union**, School of Safety Science and Engineering, Tsinghua University
-  * Led student-union academic initiatives and coordinated cross-departmental events; organized a school-level public lecture attracting 300+ attendees and managed all logistics, publicity, and follow-up materials. (Event planning, stakeholder coordination)
-* *2024.09-2025.09*	**Head, Academic Department**, Department of Engineering Physics, Tsinghua University
-  * Organized and chaired regular research discussion groups (~10–15 participants each) to foster peer feedback and collaborative projects; coordinated invited talks and reading sessions. (Community building, seminar curation)
-* *2024.09-2025.09*	**Class President**, Ph.D. Class 2024 (Year-One Cohort), School of Safety Science and Engineering, Tsinghua University (Awarded “Advanced Graduate Collective of Tsinghua University, 2024”)
-* *2023.09-2024.09*	**Class President**, Ph.D. Class 231, Department of Engineering Physics, Tsinghua University
+* **Teaching Assistant, Industry and Industrial Practice**, undergraduate course, Tsinghua University · *06/2025 – 08/2025*
+  - Responsible for two hours of laboratory instruction.
+* **Vice President, Graduate Student Union**, School of Safety Science, Tsinghua University · *09/2024 – 09/2025*
+* **Head, Academic Department**, Department of Engineering Physics, Tsinghua University · *09/2024 – 09/2025*
+* **Class President, First-Year Graduate Class**, School of Safety Science, Tsinghua University · *09/2024 – 09/2025*
+  - The class received the Tsinghua University Advanced Graduate Collective honor for 2024–2025 (Top 8%).
+* **Teaching Assistant, Decision Methodology**, undergraduate course, Tsinghua University · *09/2023 – 09/2024*
+* **Class President, Ph.D. Class 231**, Department of Engineering Physics, Tsinghua University · *09/2023 – 09/2024*
+* **Academic Affairs Representative, Safety Engineering Master's Class 20**, Department of Engineering Physics, Tsinghua University · *09/2021 – 09/2023*
 </section>
 
 <section class="cv-section" markdown="1">
 ## Prizes, awards, fellowships
 
-* **Deng Jiaxian Scholarship**, Tsinghua University, **2025**.
-* **First-Class Comprehensive Scholarship**, Tsinghua University, **2025**.
+* **Deng Jiaxian Scholarship**, Tsinghua University, 2025 · University-level honor (Top 1%).
+* First-Class Comprehensive Scholarship, Tsinghua University, 2025.
   - Participated in the 2025 Tsinghua University Student Awards Ceremony.
-* **Second Prize for Graduate Student Social Service**, Tsinghua University, **2025**.
+* Second Prize for Graduate Student Social Service, Tsinghua University, 2025.
 * Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, 2024.
 * National Scholarship Representative (Top 1%)
 Special Prize Scholarship, China University of Mining and Technology (Beijing), 2020.
