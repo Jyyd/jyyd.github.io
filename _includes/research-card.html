@@ -15,5 +15,6 @@
     <{{ card_heading }} class="research-card__title"><a href="{{ paper_link }}">{{ post.title }}</a></{{ card_heading }}>
     <p class="research-card__authors">{{ post.authors | remove: '*' | remove: '#' | escape | replace: 'Yudie Jianyao', '<strong>Yudie Jianyao</strong>' }}</p>
     <p class="research-card__venue">{{ post.venue }} <span class="paper-year">{{ post.date | date: '%Y' }}</span>{% if page.url != '/' %} <span class="publication-type publication-type--{{ post.publication_type }}">{% case post.publication_type %}{% when 'conference' %}Conference paper{% when 'poster' %}Poster{% else %}Journal article{% endcase %}</span>{% endif %}</p>
+    {% if post.award %}<p class="research-card__award"><i class="fas fa-award" aria-hidden="true"></i> {{ post.award }}</p>{% endif %}
   </div>
 </article>

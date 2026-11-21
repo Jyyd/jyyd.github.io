@@ -8,7 +8,8 @@ collection: talks
 type: "Poster"
 display_type: "Poster presentation"
 paperurl: "https://doi.org/10.1038/s41467-025-56581-8"
-venue: "The 3rd International Conference on Urban Science and Intelligence — Outstanding Poster Award, 2025"
+venue: "The 3rd International Conference on Urban Science and Intelligence"
+award: "Outstanding Poster Award"
 date: 2025-08-21
 location: "Bali, Indonesia"
 thumb: "/assets/images/talks/2025-urban-science-poster.jpg"

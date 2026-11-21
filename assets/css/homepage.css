@@ -225,6 +225,11 @@ body:has(.academic-shell) { background: #faf9fc; }
 .publication-type--conference { color: #42688d; border-color: #d2e0ee; background: #f0f6fc; }
 .publication-type--poster { color: #95607b; border-color: #ecd6e2; background: #fcf3f8; }
 .research-card__venue .publication-type { margin: 0 0 0 7px; font-style: normal; vertical-align: baseline; }
+.research-card__award { margin: 8px 0 0; color: #79588d; font-size: 16px; font-style: italic; font-weight: 600; }
+.research-card__award i { margin-right: 5px; }
+.academic-home .school-logo { width: 60px; height: 60px; }
+.academic-home .education-entry > p, .education-entry .degree-line, .academic-home .cv-education .education-entry > p { margin-left: 70px; }
+@media (max-width: 540px) { .academic-home .school-logo { width: 48px; height: 48px; } .academic-home .education-entry > p, .education-entry .degree-line, .academic-home .cv-education .education-entry > p { margin-left: 0; } }
 .academic-page.cv-page > .section-page-header { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px 22px; padding: 0 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; }
 .cv-contact { font-size: 14px; font-weight: 400; white-space: nowrap; }
 .cv-contact i { margin-right: 5px; }

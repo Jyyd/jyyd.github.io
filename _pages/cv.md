@@ -100,13 +100,14 @@ Core contributor to three intellectual property applications: two registered sof
 <section class="cv-section" markdown="1">
 ## Prizes, awards, fellowships
 
-* **Deng Jiaxian Scholarship**, Tsinghua University, 2025 · University-level honor (Top 1%).
-* First-Class Comprehensive Scholarship, Tsinghua University, 2025.
+* **Deng Jiaxian Scholarship**, Tsinghua University, 2025 · Top 1%; one of the university’s highest honors.
   - Participated in the 2025 Tsinghua University Student Awards Ceremony.
+* First-Class Comprehensive Scholarship, Tsinghua University, 2025.
+* Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum, 2025.
 * Second Prize for Graduate Student Social Service, Tsinghua University, 2025.
 * Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, 2024.
-* National Scholarship Representative (Top 1%)
-Special Prize Scholarship, China University of Mining and Technology (Beijing), 2020.
+* National Scholarship Representative (Top 1%), 2020.
+* Special Prize Scholarship, China University of Mining and Technology (Beijing), 2020.
 * Outstanding Graduate (Top 2%), China University of Mining and Technology (Beijing), 2020.
 * Excellent Thesis Award, China University of Mining and Technology (Beijing), 2020.
 * First Prize (Beijing Division), China Undergraduate Mathematical Contest in Modeling (MCM), 2018.
