@@ -5,26 +5,35 @@
     <img class="profile-card__portrait" src="{{ profile.avatar | prepend: '/images/' | relative_url }}" alt="{{ profile.name }}" width="175" height="230">
     {% endif %}
     <a class="profile-card__name" href="{{ '/' | relative_url }}">{{ profile.name }}</a>
-    <p class="profile-card__bio">{{ profile.bio }}<br>{{ profile.employer }}</p>
+    <ul class="profile-affiliations"><li>{{ profile.bio }}</li><li>{{ profile.employer }}</li></ul>
     <nav class="profile-navigation" aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
-      <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
-      <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+      <ul class="profile-menu">
+        <li><a class="profile-menu__link" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}><i class="fas fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+        <li>
+          <a class="profile-menu__link" href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}><i class="fas fa-book-open" aria-hidden="true"></i><span>Publications</span></a>
+          {% if page.url == '/publications/' %}
+          <ul class="sidebar-toc" aria-label="Publication years">
+            {% assign poster_records = site.talks | where: 'type', 'Poster' %}
+            {% assign all_records = site.publications | concat: poster_records | sort: 'date' | reverse %}
+            {% assign years = all_records | group_by_exp: 'item', 'item.date | date: "%Y"' %}
+            {% for year in years %}<li><a href="#publications-{{ year.name }}">{{ year.name }}</a></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        <li>
+          <a class="profile-menu__link" href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}><i class="fas fa-file-lines" aria-hidden="true"></i><span>CV</span></a>
+          {% if page.url == '/cv/' %}
+          <ul class="sidebar-toc" aria-label="CV sections">
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research-experience">Research experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#patents-and-software-copyrights">Patents &amp; software</a></li>
+            <li><a href="#prizes-awards-fellowships">Honors &amp; Awards</a></li>
+          </ul>
+          {% endif %}
+        </li>
+      </ul>
     </nav>
-    {% if page.url == '/publications/' %}
-    <nav class="sidebar-toc" aria-label="Publication categories">
-      <a href="#journal-articles">Journal articles</a>
-      <a href="#presentations">Conference papers</a>
-      <a href="#posters">Posters</a>
-    </nav>
-    {% elsif page.url == '/cv/' %}
-    <nav class="sidebar-toc" aria-label="CV sections">
-      <a href="#education">Education</a>
-      <a href="#research-experience">Research experience</a>
-      <a href="#publications">Publications</a>
-      <a href="#prizes-awards-fellowships">Honors &amp; Awards</a>
-    </nav>
-    {% endif %}
     <ul class="profile-contacts">
       <li><a href="mailto:{{ profile.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a></li>
       {% if profile.googlescholar %}<li><a href="{{ profile.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>{% endif %}

@@ -18,11 +18,8 @@ redirect_from:
 {% assign ordered_publications = site.publications | sort: 'publication_sort' %}
 <section class="home-section" aria-labelledby="papers-heading">
   <div class="home-section-heading"><h2 id="papers-heading">Publications</h2><a class="home-all-link" href="{{ '/publications/' | relative_url }}">More publications</a></div>
-  <div class="research-cards">
-  {% for post in ordered_publications %}
-    {% if post.featured %}{% include research-card.html %}{% endif %}
-  {% endfor %}
-  </div>
+  {% assign home_records = ordered_publications | where: 'featured', true | where: 'category', 'manuscripts' %}
+  {% include publication-years.html records=home_records heading='h3' %}
 </section>
 
 <section class="home-section home-projects" aria-labelledby="projects-heading">

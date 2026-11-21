@@ -1,0 +1,16 @@
+{% assign dated_records = include.records | sort: 'date' | reverse %}
+{% assign publication_years = dated_records | group_by_exp: 'item', 'item.date | date: "%Y"' %}
+{% assign year_heading = include.heading | default: 'h2' %}
+{% assign entry_heading = 'h3' %}
+{% if year_heading == 'h3' %}{% assign entry_heading = 'h4' %}{% endif %}
+{% for year in publication_years %}
+<section class="publication-year" id="publications-{{ year.name }}">
+  <{{ year_heading }} class="publication-year-heading">{{ year.name }}</{{ year_heading }}>
+  <div class="publication-year-list">
+    {% assign year_records = year.items | sort: 'publication_sort' %}
+    {% for post in year_records %}
+      {% include research-card.html heading=entry_heading %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
