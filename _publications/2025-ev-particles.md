@@ -1,6 +1,8 @@
 ---
+online_year: 2025
+metadata_source: "https://www.sciencedirect.com/science/article/pii/S2352152X2504023X"
 author_rank: 2
-publication_sort: "02-7974-02-31"
+publication_sort: "02-7973-12-31"
 authors: "Qiang Dong, Yudie Jianyao, Shenlin Yang, Zhan Wang, Xin Zheng, Qi Zhang, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Energy Storage"
 thumb: "/assets/images/pubs/2026-jes.png"
@@ -8,7 +10,7 @@ image_alt: "Graphical abstract of particle composition and respiratory depositio
 title: "Unveiling the composition and origins of inhalable submicron particles from electric vehicle thermal runaway"
 collection: publications
 category: manuscripts
-date: 2025-11-01
+date: 2026-01-01
 source: "https://www.sciencedirect.com/science/article/pii/S2352152X2504023X"
 abstract_type: summary
 ---

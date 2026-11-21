@@ -1,14 +1,16 @@
 ---
+online_year: 2025
+metadata_source: "https://pubmed.ncbi.nlm.nih.gov/41313867/"
 author_rank: 2
-publication_sort: "02-7974-02-31"
-authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, et al."
+publication_sort: "02-7973-12-17"
+authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, Qi Zhang, Yanyi Liuchen, Xiaole Zhang"
 venue: "Journal of Hazardous Materials"
 thumb: "/assets/images/pubs/2026-jhm-cheng.png"
 image_alt: "Physics-guided stacking framework for gasoline evaporation risk assessment"
 title: "Physics-Guided Machine Learning for Evaporation Risk Assessment during Gasoline Spill Accidents"
 collection: publications
 category: manuscripts
-date: 2025-11-01
+date: 2026-01-15
 source: "https://www.sciencedirect.com/science/article/pii/S0304389425035307"
 abstract_type: summary
 ---
