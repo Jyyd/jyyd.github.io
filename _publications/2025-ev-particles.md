@@ -1,7 +1,7 @@
 ---
 authors: "Qiang Dong, Yudie Jianyao, Shenlin Yang, Zhan Wang, Xin Zheng, Qi Zhang, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Energy Storage"
-thumb: "/assets/images/pubs/research-concept.svg"
+thumb: "/assets/images/shared/research-concept.svg"
 image_alt: "Decorative safety research illustration; not a figure from the paper"
 title: "Unveiling the composition and origins of inhalable submicron particles from electric vehicle thermal runaway"
 collection: publications
