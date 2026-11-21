@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="main" class="academic-shell" role="main">
   {% include personal-sidebar.html %}
-  <article class="archive academic-home academic-page{% if page.url == '/publications/' %} publications-page{% endif %}{% if page.url == '/cv/' %} cv-page{% endif %}">
+  <article class="archive academic-home academic-page{% if page.url == '/publications/' %} publications-page{% endif %}{% if page.url == '/cv/' %} cv-page{% endif %}{% if page.url == '/beyond-research/' %} life-page{% endif %}">
     <header class="section-page-header">
       <h1>{{ page.title }}</h1>
       {% if page.url == '/cv/' %}<a class="cv-contact" href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ site.author.email }}</a>{% endif %}

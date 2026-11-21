@@ -200,6 +200,12 @@ body:has(.academic-shell) { background: #faf9fc; }
 
 .intro-emoji { display: inline-block; margin-right: .25em; font-size: 1.1em; vertical-align: -.04em; }
 .life-welcome { margin: 0 0 28px; font-size: 19px; line-height: 1.8; }
+.academic-page.life-page > .section-page-header { padding: 0 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; }
+.life-timeline { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+.life-timeline > .life-photo { margin: 0; padding: 16px; background: #fff; border: 1px solid #eeeaf2; border-radius: 10px; }
+.life-timeline .life-photo img { width: 100%; height: 270px; object-fit: contain; background: #faf9fc; }
+.life-timeline time { display: block; margin-bottom: 8px; color: #755797; font-size: 16px; font-weight: 600; }
+@media (max-width: 640px) { .life-timeline { grid-template-columns: 1fr; } .life-timeline .life-photo img { height: 250px; } }
 .life-section { margin-bottom: 32px; padding: 28px; background: #fff; border: 1px solid #eeeaf2; border-radius: 10px; }
 .life-section > h2 { margin: 0 0 24px; font-size: 26px; }
 .life-travel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
