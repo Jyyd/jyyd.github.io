@@ -45,9 +45,9 @@ body:has(.academic-home) .masthead__menu-item--lg a, .masthead-link-icon { color
 .publication-type--poster { background: #3c2935; border-color: #634353; color: #e4b4d0; }
 .research-card__award, .photo-credit, .life-timeline time { color: #c5a8df; }
 .publications-page .publication-year-list > .research-card + .research-card, .cv-publication-years .research-card + .research-card { border-color: #40384e; }
-.academic-home .research-card__image .image-mat { background: #f5f2f8; border-radius: 5px; }
+.academic-home .research-card__image .image-mat { background: transparent; border-radius: 0; }
 .academic-home .research-card__image--photo .image-mat { background: transparent; }
-.academic-home .school-logo { background: #f5f2f8; border-radius: 50%; padding: 5px; }
+.academic-home .school-logo { background: transparent; border-radius: 0; padding: 0; }
 .page__footer { border-top: 1px solid #40384e; background: #1c1b22; color: #aaa2b6; }
 .page__footer a { color: #c1a5f0; }
 /* Keep pages with a plain title free of a header card in the dark theme too. */
