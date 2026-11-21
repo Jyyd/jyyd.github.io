@@ -76,3 +76,6 @@ image_alt: "Presentation at APSS 2025"
 - 推荐宽度 1000–1600 像素，尽量控制在 1 MB 以内，文字不要太密集。
 
 把图片放入文件夹只是本地修改。还需要将图片与对应 Markdown 记录一起提交并推送到 GitHub，GitHub Pages 部署成功后才会在线显示。
+# Life photos
+
+个人生活和会议旅行照片放在 `assets/images/life/`，在 `_pages/beyond-research.html` 添加图片与说明。请保留摄影署名：life2 为 Xinsheng Xu，life3、life4 为 Yiping Lin。点击页面照片可查看原图。

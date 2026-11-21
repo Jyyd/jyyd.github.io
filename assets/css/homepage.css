@@ -196,27 +196,23 @@ body:has(.academic-shell) { background: #faf9fc; }
 .profile-scroll-region::-webkit-scrollbar-thumb { background: #c1a8d9; border-radius: 7px; border: 1px solid #f7f2fc; }
 .profile-scroll-region:focus-visible { outline: 2px solid #b599d6; outline-offset: -3px; }
 .profile-scroll-region .profile-card { border: 0; border-radius: 0; }
-.sidebar-scroll-controls { display: flex; flex: 0 0 auto; justify-content: center; align-items: center; gap: 22px; padding: 7px 15px; border-top: 1px solid #e6dbef; background: #f8f4fd; }
-.sidebar-scroll-controls[hidden] { display: none !important; }
-.cosmic-scroll { display: inline-flex; align-items: center; justify-content: center; width: 56px; height: 48px; padding: 0; border: 1px solid #e2d7ef; border-radius: 13px; background: linear-gradient(145deg, #fff, #f1e9fc); cursor: pointer; box-shadow: 0 2px 6px #71549c0a; transition: transform .18s ease, border-color .18s ease; }
-.cosmic-scroll svg { display: block; width: 45px; height: 45px; }
-.cosmic-scroll:hover:not(:disabled) { transform: translateY(-2px); border-color: #b49ad2; background: #fff; }
-.cosmic-scroll:active:not(:disabled) { transform: translateY(0); }
-.cosmic-scroll:focus-visible { outline: 3px solid #b599d6; outline-offset: 3px; }
-.cosmic-scroll:disabled { opacity: .32; cursor: default; box-shadow: none; }
-.cosmic-scroll:hover:not(:disabled) .cosmic-wings { animation: cosmic-flutter .9s ease-in-out infinite alternate; transform-origin: 32px 35px; }
-.cosmic-scroll:hover:not(:disabled) .cosmic-star { animation: cosmic-twinkle 1s ease-in-out infinite alternate; }
-@keyframes cosmic-flutter { from { transform: scaleX(.86); } to { transform: scaleX(1); } }
-@keyframes cosmic-twinkle { from { opacity: .5; } to { opacity: 1; } }
-@media (max-width: 1023px) {
-  .academic-shell > .personal-sidebar { max-height: none; overflow: visible; }
-  .profile-scroll-region { flex: none; overflow: visible; scrollbar-gutter: auto; }
-  .profile-scroll-region .profile-card { border-radius: 13px; }
-  .sidebar-scroll-controls { display: none !important; }
-}
-@media (prefers-reduced-motion: reduce) { .cosmic-scroll { transition: none; } .cosmic-scroll .cosmic-wings, .cosmic-scroll .cosmic-star { animation: none !important; } }
+@media (max-width: 1023px) { .academic-shell > .personal-sidebar { max-height: none; overflow: visible; } .profile-scroll-region { flex: none; overflow: visible; scrollbar-gutter: auto; } }
 
 .intro-emoji { display: inline-block; margin-right: .25em; font-size: 1.1em; vertical-align: -.04em; }
+.life-welcome { margin: 0 0 28px; font-size: 19px; line-height: 1.8; }
+.life-section { margin-bottom: 32px; padding: 28px; background: #fff; border: 1px solid #eeeaf2; border-radius: 10px; }
+.life-section > h2 { margin: 0 0 24px; font-size: 26px; }
+.life-travel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+.life-photo { margin: 0 0 26px; min-width: 0; }
+.life-photo:last-child { margin-bottom: 0; }
+.life-photo a { display: block; }
+.life-photo img { display: block; width: 100%; height: auto; border-radius: 7px; }
+.life-photo figcaption { padding: 14px 0 0; }
+.academic-home .life-photo h3 { margin: 0 0 5px; font-size: 20px; line-height: 1.5; }
+.academic-home .life-photo p { margin: 0 0 5px; font-size: 17px; line-height: 1.7; }
+.photo-credit { color: #766887; font-size: 15px; }
+.life-snow { max-width: 560px; margin-left: auto; margin-right: auto; }
+@media (max-width: 640px) { .life-travel-grid { grid-template-columns: 1fr; } .life-section { padding: 20px; } }
 .home-topics span { font-weight: 700; font-style: italic; }
 .academic-home .paper-year { display: inline-block; margin-left: 7px; padding: 1px 9px; border-radius: 5px; background: #efe7f8; color: #62438c; font-size: 17px; font-style: normal; font-weight: 700; line-height: 1.6; vertical-align: baseline; }
 .publication-type { display: inline-block; margin-bottom: 10px; padding: 2px 9px; border: 1px solid #e0d5ec; border-radius: 5px; color: #6b4c91; background: #f7f2fc; font-size: 15px; font-weight: 500; line-height: 1.6; }

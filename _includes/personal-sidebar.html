@@ -33,6 +33,7 @@
           </ul>
           {% endif %}
         </li>
+        <li><a class="profile-menu__link" href="{{ '/beyond-research/' | relative_url }}"{% if page.url == '/beyond-research/' %} aria-current="page"{% endif %}><i class="fas fa-camera-retro" aria-hidden="true"></i><span>Beyond Research</span></a></li>
       </ul>
     </nav>
     <ul class="profile-contacts">
@@ -43,26 +44,5 @@
       {% if profile.github %}<li><a href="https://github.com/{{ profile.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub</a></li>{% endif %}
     </ul>
   </div>
-  </div>
-  <div class="sidebar-scroll-controls" hidden>
-    <button type="button" class="cosmic-scroll cosmic-scroll--up" data-sidebar-scroll="up" aria-label="Scroll sidebar up" aria-controls="profile-scroll-region" title="Cosmic butterfly · Scroll up">
-      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-        <defs><linearGradient id="cosmic-butterfly" x2="1" y2="1"><stop stop-color="#aabdf8"/><stop offset=".5" stop-color="#ad8de1"/><stop offset="1" stop-color="#f1b9df"/></linearGradient></defs>
-        <g class="cosmic-wings" fill="url(#cosmic-butterfly)" stroke="#71509e" stroke-width="1.5" stroke-linejoin="round"><path d="M30 34C18 9 5 16 10 31c2 7 10 10 20 7C9 35 11 55 23 48l7-10"/><path d="M34 34C46 9 59 16 54 31c-2 7-10 10-20 7 21-3 19 17 7 10l-7-10"/></g>
-        <path d="M32 27v20m-1-19-5-7m7 7 5-7" fill="none" stroke="#634580" stroke-width="2" stroke-linecap="round"/>
-        <path d="m28 12 4-4 4 4m-4-4v10" fill="none" stroke="#7355aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <g fill="#fff"><circle cx="17" cy="28" r="1.5"/><circle cx="47" cy="28" r="1.5"/><circle cx="21" cy="43" r="1"/><circle cx="43" cy="43" r="1"/></g><path d="m8 9 1.5 4L14 15l-4.5 1.5L8 21l-1.5-4.5L2 15l4.5-2z" fill="#b3a3e2"/><circle cx="55" cy="11" r="2" fill="#d2afe8"/>
-      </svg>
-    </button>
-    <button type="button" class="cosmic-scroll cosmic-scroll--down" data-sidebar-scroll="down" aria-label="Scroll sidebar down" aria-controls="profile-scroll-region" title="Starlight unicorn · Scroll down">
-      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-        <defs><linearGradient id="cosmic-unicorn" x2="1" y2="1"><stop stop-color="#d4b8f0"/><stop offset="1" stop-color="#a6bdf4"/></linearGradient></defs>
-        <path d="M15 47c-3-17 1-29 13-32 13-2 21 10 18 23l-9 10z" fill="url(#cosmic-unicorn)" stroke="#8360ad" stroke-width="1.5"/>
-        <path d="m32 20 9-16-2 19" fill="#f5dfb3" stroke="#b99862" stroke-width="1.5"/><path d="m27 22-5-10 12 5" fill="#f6f0fd" stroke="#8360ad" stroke-width="1.5"/>
-        <path d="M25 26c3-9 12-12 18-6l5 12 8 5c3 4-2 9-7 7l-12-4-1 10H23c0-7 6-13 2-24z" fill="#fbf8ff" stroke="#785898" stroke-width="1.6" stroke-linejoin="round"/>
-        <path d="M20 24c-7 7-6 13-3 18m5-12c-3 6-2 10 0 14" fill="none" stroke="#baa1e3" stroke-width="2" stroke-linecap="round"/><path d="m38 29 3 1" stroke="#6b4b8c" stroke-width="2" stroke-linecap="round"/>
-        <path d="m28 54 4 4 4-4m-4-6v10" fill="none" stroke="#7355aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path class="cosmic-star" d="m53 9 1.4 4.1L59 15l-4.6 1.4L53 21l-1.4-4.6L47 15l4.6-1.9z" fill="#ba9bdf"/>
-      </svg>
-    </button>
   </div>
 </aside>
