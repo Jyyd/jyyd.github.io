@@ -13,6 +13,7 @@ award: "Outstanding Poster Award"
 date: 2025-08-21
 location: "Bali, Indonesia"
 thumb: "/assets/images/talks/2025-urban-science-poster.jpg"
+people_photo: true
 # poster: "/assets/posters/asram2024-poster.pdf"             # 可选：海报 PDF 链接
 authors: "Yudie Jianyao*, Hongyong Yuan*, Guofeng Su, Jing Wang, Wenguo Weng & Xiaole Zhang#"
 ---

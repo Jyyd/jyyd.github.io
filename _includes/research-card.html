@@ -9,7 +9,7 @@
 {% endif %}
 <article class="research-card">
   <a class="research-card__image" href="{{ paper_link }}" aria-label="Read {{ post.title | escape }}">
-    <img src="{{ card_image | relative_url }}" alt="{{ card_image_alt | escape }}" loading="lazy" width="480" height="320">
+    <span class="image-mat{% if post.people_photo %} soft-photo{% endif %}"><img src="{{ card_image | relative_url }}" alt="{{ card_image_alt | escape }}" loading="lazy" width="480" height="320"></span>
   </a>
   <div class="research-card__body">
     <{{ card_heading }} class="research-card__title"><a href="{{ paper_link }}">{{ post.title }}</a></{{ card_heading }}>
