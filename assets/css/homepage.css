@@ -233,6 +233,15 @@ body:has(.academic-shell) { background: #faf9fc; }
 .academic-page.cv-page > .section-page-header { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px 22px; padding: 0 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; }
 .cv-contact { font-size: 14px; font-weight: 400; white-space: nowrap; }
 .cv-contact i { margin-right: 5px; }
+.academic-home .education-entry { display: grid; grid-template-columns: 42% minmax(0, 1fr); column-gap: 20px; align-items: start; }
+.academic-home .education-entry .school-heading { display: contents; }
+.academic-home .education-entry .school-logo { grid-column: 1; grid-row: 1 / span 6; width: 80%; max-width: 200px; height: auto; aspect-ratio: 1; align-self: center; justify-self: center; }
+.academic-home .education-entry .school-heading > a, .academic-home .education-entry .school-heading > span { grid-column: 2; font-size: 21px; font-weight: 650; margin-bottom: 14px; }
+.academic-home .education-entry > p, .academic-home .education-entry .degree-line, .academic-home .cv-education .education-entry > p { grid-column: 2; margin-left: 0; }
+.life-photo--conference { grid-column: 1 / -1; }
+.life-conference-images { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.life-timeline .life-conference-images img { height: 300px; }
+@media (max-width: 540px) { .academic-home .education-entry { grid-template-columns: 34% minmax(0, 1fr); gap: 10px; } .academic-home .education-entry .school-heading > a, .academic-home .education-entry .school-heading > span { font-size: 18px; } .life-conference-images { grid-template-columns: 1fr; } }
 .cv-skills { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .academic-home .cv-skill-group h3 { margin: 0 0 10px; font-size: 17px; font-weight: 600; }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }

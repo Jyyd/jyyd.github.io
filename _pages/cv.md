@@ -86,7 +86,7 @@ Core contributor to three intellectual property applications: two registered sof
 <section class="cv-section" markdown="1">
 ## Service and leadership
 
-* **Teaching Assistant, Industry and Industrial Practice**, undergraduate course, Tsinghua University · *06/2025 – 08/2025*
+* **Teaching Assistant, Industry and Industrial Practice**, undergraduate course, Tsinghua University · *06/2025 – 08/2025; 11/2025; 06/2026 – 08/2026; 11/2026*
   - Responsible for two hours of laboratory instruction.
 * **Vice President, Graduate Student Union**, School of Safety Science, Tsinghua University · *09/2024 – 09/2025*
 * **Head, Academic Department**, Department of Engineering Physics, Tsinghua University · *09/2024 – 09/2025*
@@ -100,10 +100,11 @@ Core contributor to three intellectual property applications: two registered sof
 <section class="cv-section" markdown="1">
 ## Prizes, awards, fellowships
 
+* Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum & Tsinghua University Doctoral Academic Forum, Session 784, April 2025.
+* Outstanding Poster Award, The 3rd International Conference on Urban Science and Intelligence, August 2025.
 * **Deng Jiaxian Scholarship**, Tsinghua University, 2025 · Top 1%; one of the university’s highest honors.
   - Participated in the 2025 Tsinghua University Student Awards Ceremony.
 * First-Class Comprehensive Scholarship, Tsinghua University, 2025.
-* Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum, 2025.
 * Second Prize for Graduate Student Social Service, Tsinghua University, 2025.
 * Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, 2024.
 * National Scholarship Representative (Top 1%), 2020.
