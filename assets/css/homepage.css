@@ -23,8 +23,8 @@ body:has(.academic-home) .masthead .greedy-nav .visible-links li:first-child { w
 .home-section { margin-top: 44px; }
 .home-section-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin-bottom: 23px; }
 .academic-home .home-section h2 { margin: 0; padding: 0; border: 0; font-size: 26px; line-height: 1.4; font-weight: 650; letter-spacing: -.025em; }
-.academic-home .home-all-link { flex-shrink: 0; display: inline-block; padding: 8px 13px; border-radius: 7px; background: #6a529d; color: #fff; font-size: 16px; font-weight: 600; line-height: 1.6; }
-.academic-home .home-all-link:hover { background: #503b7d; color: #fff; text-decoration: none; }
+.academic-home .home-all-link { flex-shrink: 0; display: inline-block; padding: 5px 0; border: 0; border-radius: 0; background: transparent; color: #503078; font-size: 17px; font-weight: 750; line-height: 1.6; text-shadow: 0 0 2px #fff, 0 0 5px #ffffffc0; }
+.academic-home .home-all-link:hover { background: transparent; color: #392052; text-decoration: underline; text-underline-offset: 4px; }
 .research-cards { display: grid; gap: 22px; }
 .research-card { display: grid; grid-template-columns: 250px minmax(0, 1fr); align-items: center; overflow: hidden; border: 1px solid var(--home-border); border-radius: 9px; background: var(--home-card); }
 .research-card:hover { border-color: #c9bbdf; }

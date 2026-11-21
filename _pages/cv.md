@@ -30,7 +30,7 @@ redirect_from:
 </section>
 
 <section class="cv-section" markdown="1">
-## Research Experience
+## Research projects
 
 My research includes: **AI4Safety** (the application of machine learning & deep learning to physical-world public-safety problems such as emergency management and disaster response — *not* cybersecurity), **atmospheric pollutant diffusion prediction**, **data assimilation for hazardous-chemical leakage forecasting**, and **probabilistic risk analysis**. 
 
