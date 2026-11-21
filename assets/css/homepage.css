@@ -188,3 +188,30 @@ body:has(.academic-shell) { background: #faf9fc; }
   .academic-home .education-entry > p, .education-entry .degree-line, .academic-home .cv-education .education-entry > p { margin-left: 0; }
   .academic-home .school-logo { width: 35px; height: 35px; }
 }
+
+/* Independent native scrolling keeps every sidebar link reachable. */
+.academic-shell > .personal-sidebar { display: flex; flex-direction: column; min-height: 0; max-height: calc(100vh - 108px); max-height: calc(100dvh - 108px); overflow: hidden; border: 1px solid #e4d8f1; border-radius: 13px; background: #f7f2fc; }
+.profile-scroll-region { flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: auto; scrollbar-width: thin; scrollbar-color: #c1a8d9 transparent; scrollbar-gutter: stable; -webkit-overflow-scrolling: touch; touch-action: pan-y; }
+.profile-scroll-region::-webkit-scrollbar { width: 7px; }
+.profile-scroll-region::-webkit-scrollbar-thumb { background: #c1a8d9; border-radius: 7px; border: 1px solid #f7f2fc; }
+.profile-scroll-region:focus-visible { outline: 2px solid #b599d6; outline-offset: -3px; }
+.profile-scroll-region .profile-card { border: 0; border-radius: 0; }
+.sidebar-scroll-controls { display: flex; flex: 0 0 auto; justify-content: center; align-items: center; gap: 22px; padding: 7px 15px; border-top: 1px solid #e6dbef; background: #f8f4fd; }
+.sidebar-scroll-controls[hidden] { display: none !important; }
+.cosmic-scroll { display: inline-flex; align-items: center; justify-content: center; width: 56px; height: 48px; padding: 0; border: 1px solid #e2d7ef; border-radius: 13px; background: linear-gradient(145deg, #fff, #f1e9fc); cursor: pointer; box-shadow: 0 2px 6px #71549c0a; transition: transform .18s ease, border-color .18s ease; }
+.cosmic-scroll svg { display: block; width: 45px; height: 45px; }
+.cosmic-scroll:hover:not(:disabled) { transform: translateY(-2px); border-color: #b49ad2; background: #fff; }
+.cosmic-scroll:active:not(:disabled) { transform: translateY(0); }
+.cosmic-scroll:focus-visible { outline: 3px solid #b599d6; outline-offset: 3px; }
+.cosmic-scroll:disabled { opacity: .32; cursor: default; box-shadow: none; }
+.cosmic-scroll:hover:not(:disabled) .cosmic-wings { animation: cosmic-flutter .9s ease-in-out infinite alternate; transform-origin: 32px 35px; }
+.cosmic-scroll:hover:not(:disabled) .cosmic-star { animation: cosmic-twinkle 1s ease-in-out infinite alternate; }
+@keyframes cosmic-flutter { from { transform: scaleX(.86); } to { transform: scaleX(1); } }
+@keyframes cosmic-twinkle { from { opacity: .5; } to { opacity: 1; } }
+@media (max-width: 1023px) {
+  .academic-shell > .personal-sidebar { max-height: none; overflow: visible; }
+  .profile-scroll-region { flex: none; overflow: visible; scrollbar-gutter: auto; }
+  .profile-scroll-region .profile-card { border-radius: 13px; }
+  .sidebar-scroll-controls { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) { .cosmic-scroll { transition: none; } .cosmic-scroll .cosmic-wings, .cosmic-scroll .cosmic-star { animation: none !important; } }
