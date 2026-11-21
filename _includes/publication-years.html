@@ -8,8 +8,12 @@
   <{{ year_heading }} class="publication-year-heading">{{ year.name }}</{{ year_heading }}>
   <div class="publication-year-list">
     {% assign year_records = year.items | sort: 'publication_sort' %}
-    {% for post in year_records %}
+    {% assign publication_types = 'journal,conference,poster' | split: ',' %}
+    {% for publication_type in publication_types %}
+    {% assign type_records = year_records | where: 'publication_type', publication_type %}
+    {% for post in type_records %}
       {% include research-card.html heading=entry_heading %}
+    {% endfor %}
     {% endfor %}
   </div>
 </section>

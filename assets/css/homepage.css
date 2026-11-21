@@ -218,6 +218,7 @@ body:has(.academic-shell) { background: #faf9fc; }
 .publication-type { display: inline-block; margin-bottom: 10px; padding: 2px 9px; border: 1px solid #e0d5ec; border-radius: 5px; color: #6b4c91; background: #f7f2fc; font-size: 15px; font-weight: 500; line-height: 1.6; }
 .publication-type--conference { color: #42688d; border-color: #d2e0ee; background: #f0f6fc; }
 .publication-type--poster { color: #95607b; border-color: #ecd6e2; background: #fcf3f8; }
+.research-card__venue .publication-type { margin: 0 0 0 7px; font-style: normal; vertical-align: baseline; }
 .academic-page.publications-page > .section-page-header { background: none; border: 0; border-radius: 0; box-shadow: none; padding: 0 0 20px; margin: 0 0 18px; }
 .publications-page .publication-year-list { background: transparent; border: 0; border-radius: 0; overflow: visible; }
 .publications-page .research-card { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
