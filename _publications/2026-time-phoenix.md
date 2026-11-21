@@ -8,7 +8,7 @@ publication_type: journal
 type_rank: 1
 author_rank: 1
 publication_sort: "01-7973-03-31-1"
-featured: true
+featured: false
 authors: "Yudie Jianyao, Yang Yu, Xiaole Zhang"
 venue: "Safety, Health &amp; Environment"
 paperurl: "https://safe.cbpt.cnki.net/portal/journal/portal/client/paper/468128647a3d2e5afd7bb9d98228a883"
