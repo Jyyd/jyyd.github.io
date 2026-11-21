@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="cv-body" markdown="1">
 <section class="cv-section" markdown="1">
-## Education
+<h2 id="education"><i class="fas fa-graduation-cap cv-section-icon" aria-hidden="true"></i> Education</h2>
 
 <div class="cv-education" markdown="0">
   <article class="education-entry">
@@ -30,7 +30,7 @@ redirect_from:
 </section>
 
 <section class="cv-section" markdown="1">
-## Research projects
+<h2 id="research-projects"><i class="fas fa-flask cv-section-icon" aria-hidden="true"></i> Research projects</h2>
 
 My research includes: **AI4Safety** (the application of machine learning & deep learning to physical-world public-safety problems such as emergency management and disaster response — *not* cybersecurity), **atmospheric pollutant diffusion prediction**, **data assimilation for hazardous-chemical leakage forecasting**, and **probabilistic risk analysis**. 
 
@@ -55,7 +55,7 @@ My research includes: **AI4Safety** (the application of machine learning & deep 
 </section>
 
 <section class="cv-section" markdown="1">
-## Publications
+<h2 id="publications"><i class="fas fa-book-open cv-section-icon" aria-hidden="true"></i> Publications</h2>
 
 <div class="cv-publication-years" markdown="0">
 {% include publication-years.html records=site.publications heading='h3' %}
@@ -63,7 +63,7 @@ My research includes: **AI4Safety** (the application of machine learning & deep 
 </section>
 
 <section class="cv-section" markdown="1">
-## Patents and software copyrights
+<h2 id="patents-and-software-copyrights"><i class="fas fa-lightbulb cv-section-icon" aria-hidden="true"></i> Patents and software copyrights</h2>
 
 Core contributor to three intellectual property applications: two registered software copyrights and one invention patent application.
 
@@ -73,7 +73,7 @@ Core contributor to three intellectual property applications: two registered sof
 
 </section>
 <section class="cv-section" markdown="1">
-## Skills
+<h2 id="skills"><i class="fas fa-code cv-section-icon" aria-hidden="true"></i> Skills</h2>
 
 <div class="cv-skills" markdown="0">
   <div class="cv-skill-group"><h3>Dispersion models</h3><div class="skill-tags"><span>GRAMM–GRAL</span></div></div>
@@ -84,7 +84,7 @@ Core contributor to three intellectual property applications: two registered sof
 </section>
 
 <section class="cv-section" markdown="1">
-## Service and leadership
+<h2 id="service-and-leadership"><i class="fas fa-users cv-section-icon" aria-hidden="true"></i> Service and leadership</h2>
 
 * **Teaching Assistant, Industry and Industrial Practice**, undergraduate course, Tsinghua University · *06/2025 – 08/2025; 11/2025; 06/2026 – 08/2026; 11/2026*
   - Responsible for two hours of laboratory instruction.
@@ -98,7 +98,7 @@ Core contributor to three intellectual property applications: two registered sof
 </section>
 
 <section class="cv-section" markdown="1">
-## Prizes, awards, fellowships
+<h2 id="prizes-awards-fellowships"><i class="fas fa-award cv-section-icon" aria-hidden="true"></i> Prizes, awards, fellowships</h2>
 
 * **Deng Jiaxian Scholarship**, Tsinghua University, Dec. 2025 · Top 1%; one of the university’s highest honors.
   - Participated in the 2025 Tsinghua University Student Awards Ceremony.

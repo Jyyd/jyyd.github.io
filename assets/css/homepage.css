@@ -233,6 +233,7 @@ body:has(.academic-shell) { background: #faf9fc; }
 .academic-page.cv-page > .section-page-header { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px 22px; padding: 0 0 20px; background: none; border: 0; border-radius: 0; box-shadow: none; }
 .cv-contact { font-size: 14px; font-weight: 400; white-space: nowrap; }
 .cv-contact i { margin-right: 5px; }
+.cv-section-icon { display: inline-block; width: 1.2em; margin-right: .3em; color: #78579d; font-size: .8em; text-align: center; vertical-align: .04em; }
 .academic-home .education-entry { display: grid; grid-template-columns: 130px minmax(0, 1fr); column-gap: 24px; align-items: start; }
 .academic-home .education-entry .school-heading { display: contents; }
 .academic-home .education-entry .school-logo { grid-column: 1; grid-row: 1 / span 6; width: 110px; height: 110px; aspect-ratio: 1; align-self: center; justify-self: center; }
