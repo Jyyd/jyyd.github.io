@@ -7,6 +7,8 @@ foreach ($group in @('pubs', 'talks', 'life')) {
     New-Item -ItemType Directory -Force -Path $destination | Out-Null
     foreach ($source in Get-ChildItem -LiteralPath (Join-Path $ImageRoot $group) -File) {
         if ($source.Extension -notin @('.png', '.jpg', '.jpeg')) { continue }
+        # Prefer the supplied PNG replacement while retaining older JPEG originals.
+        if ($source.Extension -ne '.png' -and (Test-Path -LiteralPath (Join-Path $source.DirectoryName ($source.BaseName + '.png')))) { continue }
         $bitmap = [Drawing.Image]::FromFile($source.FullName)
         try { $width = $bitmap.Width; $height = $bitmap.Height } finally { $bitmap.Dispose() }
         $scale = [Math]::Min(1152.0 / $width, 752.0 / $height)
