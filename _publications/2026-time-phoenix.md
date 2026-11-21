@@ -10,7 +10,8 @@ author_rank: 1
 publication_sort: "01-7973-03-31-1"
 featured: true
 authors: "Yudie Jianyao, Yang Yu, Xiaole Zhang"
-venue: "Safety, Health &amp; Environment, 26(10), 18–28"
+venue: "Safety, Health &amp; Environment"
+paperurl: "https://safe.cbpt.cnki.net/portal/journal/portal/client/paper/468128647a3d2e5afd7bb9d98228a883"
 volume: 26
 issue: 10
 pages: "18–28"
