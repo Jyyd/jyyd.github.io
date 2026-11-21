@@ -10,7 +10,7 @@
   {% assign display_image = card_image %}
 {% endif %}
 <article class="research-card">
-  <a class="research-card__image" href="{{ paper_link }}" aria-label="Read {{ post.title | escape }}">
+  <a class="research-card__image{% if post.people_photo %} research-card__image--photo{% endif %}" href="{{ paper_link }}" aria-label="Read {{ post.title | escape }}">
     <span class="image-mat"><img src="{{ display_image | relative_url }}" alt="{{ card_image_alt | escape }}" loading="lazy" width="1200" height="800"></span>
   </a>
   <div class="research-card__body">
