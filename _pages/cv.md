@@ -100,18 +100,18 @@ Core contributor to three intellectual property applications: two registered sof
 <section class="cv-section" markdown="1">
 ## Prizes, awards, fellowships
 
-* Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum & Tsinghua University Doctoral Academic Forum, Session 784, April 2025.
-* Outstanding Poster Award, The 3rd International Conference on Urban Science and Intelligence, August 2025.
-* **Deng Jiaxian Scholarship**, Tsinghua University, 2025 · Top 1%; one of the university’s highest honors.
+* **Deng Jiaxian Scholarship**, Tsinghua University, Dec. 2025 · Top 1%; one of the university’s highest honors.
   - Participated in the 2025 Tsinghua University Student Awards Ceremony.
-* First-Class Comprehensive Scholarship, Tsinghua University, 2025.
-* Second Prize for Graduate Student Social Service, Tsinghua University, 2025.
-* Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, 2024.
-* National Scholarship Representative (Top 1%), 2020.
-* Special Prize Scholarship, China University of Mining and Technology (Beijing), 2020.
-* Outstanding Graduate (Top 2%), China University of Mining and Technology (Beijing), 2020.
-* Excellent Thesis Award, China University of Mining and Technology (Beijing), 2020.
-* First Prize (Beijing Division), China Undergraduate Mathematical Contest in Modeling (MCM), 2018.
-* Meritorious Winner, Mathematical Contest in Modeling (MCM, USA) (Top 8%), 2018.
+* First-Class Comprehensive Scholarship, Tsinghua University, Dec. 2025.
+* Second Prize for Graduate Student Social Service, Tsinghua University, Dec. 2025.
+* Outstanding Poster Award, The 3rd International Conference on Urban Science and Intelligence, Aug. 2025.
+* Grand Prize for Poster Presentation, HELIANBANG Joint Doctoral Academic Forum & Tsinghua University Doctoral Academic Forum, Session 784, Apr. 2025.
+* Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, Dec. 2024.
+* Outstanding Graduate (Top 2%), China University of Mining and Technology (Beijing), Jun. 2020.
+* Excellent Thesis Award, China University of Mining and Technology (Beijing), Jun. 2020.
+* National Scholarship Representative (Top 1%), Dec. 2019.
+* Special Prize Scholarship, China University of Mining and Technology (Beijing), Dec. 2019.
+* First Prize (Beijing Division), China Undergraduate Mathematical Contest in Modeling (MCM), Nov. 2018.
+* Meritorious Winner, Mathematical Contest in Modeling (MCM, USA) (Top 8%), May 2018.
 </section>
 </div>
