@@ -1,4 +1,6 @@
 ---
+author_rank: 4
+publication_sort: "04-7977-10-31"
 authors: "Kai Wang, Wei Zhao, Yuan Yuan, Yudie Jianyao, Yanan Song, Peifeng Hu, Jingwei Huang"
 venue: "Emergency Management Science and Technology"
 thumb: "/assets/images/shared/research-concept.svg"

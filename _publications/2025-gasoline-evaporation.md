@@ -1,4 +1,6 @@
 ---
+author_rank: 2
+publication_sort: "02-7974-02-31"
 authors: "Yuheng Cheng, Yudie Jianyao, Sining Chen, Mingqing Su, et al."
 venue: "Journal of Hazardous Materials"
 thumb: "/assets/images/shared/research-concept.svg"

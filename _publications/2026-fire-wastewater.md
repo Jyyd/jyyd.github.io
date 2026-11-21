@@ -1,4 +1,6 @@
 ---
+author_rank: 8
+publication_sort: "08-7973-04-03"
 authors: "Qiang Dong, Zhan Wang, Qi Zhang, Yuheng Cheng, Huifeng Li, Yijia He, Xin Zheng, Yudie Jianyao, Jiale Zhang, Yang Yu, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Hazardous Materials"
 thumb: "/assets/images/shared/research-concept.svg"

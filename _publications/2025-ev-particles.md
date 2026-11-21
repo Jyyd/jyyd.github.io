@@ -1,4 +1,6 @@
 ---
+author_rank: 2
+publication_sort: "02-7974-02-31"
 authors: "Qiang Dong, Yudie Jianyao, Shenlin Yang, Zhan Wang, Xin Zheng, Qi Zhang, Guofeng Su, Hongyong Yuan, Xiaole Zhang"
 venue: "Journal of Energy Storage"
 thumb: "/assets/images/shared/research-concept.svg"

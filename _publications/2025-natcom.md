@@ -1,4 +1,6 @@
 ---
+author_rank: 1
+publication_sort: "01-7974-12-31"
 featured: true
 paperurl: "https://doi.org/10.1038/s41467-025-56581-8"
 image_alt: "Stem-PNC framework for high-resolution ultrafine particle exposure modeling"

@@ -52,11 +52,12 @@ image_alt: "Presentation at APSS 2025"
 | 图片 | 用途／状态 |
 | --- | --- |
 | `pubs/natcom-2025.png` | Nature Communications 论文的原有研究框架图 |
+| `pubs/bae-2026.png` | Building and Environment 论文的真实网络结构图 |
 | `pubs/2023-jssr.jpg` | 粮食储存监管论文的原有研究框架图；沿用原文件名 |
 | `talks/2025-urban-science-poster.jpg` | 2025 城市科学会议海报 |
 | `talks/2024-psam-presentation.jpg` | 2024 PSAM 会议报告图片 |
-| `shared/dispersion-concept.svg` | 扩散研究及会议论文共用的概念插图，不是论文结果图 |
-| `shared/research-concept.svg` | 其他论文共用的装饰插图，不是论文结果图 |
+| `shared/dispersion-concept.svg` | 旧版概念插图，已不用于论文卡片 |
+| `shared/research-concept.svg` | 旧版装饰插图，已不用于论文卡片 |
 
 如果只想给一篇论文换图，请上传该论文独有的新文件并修改它的 `thumb`。不要覆盖 `shared/` 中的共用图片，否则多篇论文会同时改变。
 

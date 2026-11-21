@@ -1,7 +1,6 @@
 ---
 layout: academic
 title: "Curriculum vitae"
-eyebrow: "ACADEMIC BACKGROUND"
 description: "Education, research experience, skills, and academic service."
 permalink: /cv/
 author_profile: true
@@ -45,6 +44,7 @@ My research includes: **AI4Safety** (the application of machine learning & deep 
   - **Data Assimilation with Deep Learning:** Use a deep learning surrogate model to update and correct predictions through sensor data assimilation.
   - **Low-Cost Sensor Network & Web Platform:** Established a low-cost sensor network and a web-based system for real-time data collection, prediction, and model calibration.
   - Achieved applied outcomes with two registered *software copyrights*.
+  - Research from this project was published in [**Building and Environment**](https://doi.org/10.1016/j.buildenv.2026.114797).
 
 * **Food Security Supervision Model Design** *(09/2021-2023/09)*
   - Built a big-data-driven supervisory system for grain storage safety, combining statistical analysis, predictive modeling, and clustering methods.
@@ -53,9 +53,12 @@ My research includes: **AI4Safety** (the application of machine learning & deep 
 
 Publications
 ======
-  <ol class="cv-publications">{% for post in site.publications reversed %}
-    <li><a href="{{ post.paperurl | default: post.source | default: post.url }}">{{ post.title }}</a><small>{{ post.venue }} · {{ post.date | date: "%Y" }}</small></li>
-  {% endfor %}</ol>
+<div class="research-cards cv-research-cards" markdown="0">
+{% assign ordered_publications = site.publications | sort: 'publication_sort' %}
+{% for post in ordered_publications %}
+  {% include research-card.html %}
+{% endfor %}
+</div>
   
 Skills
 ======
@@ -72,9 +75,9 @@ Skills
   * Arduino
 
 
-Talks
+Presentations
 ======
-  <p><a href="/talks/">Conference papers, talks, and poster presentations</a></p>
+  <p><a href="/presentations/">Conference papers and poster presentations</a></p>
   
   
 Service and leadership
@@ -89,6 +92,9 @@ Service and leadership
 
 Prizes, awards, fellowships
 ======
+* **Deng Jiaxian Scholarship (邓稼先奖学金)**, Tsinghua University, **2025**.
+* **First-Class Comprehensive Scholarship (综合一等奖学金)**, Tsinghua University, **2025**.
+  - Participated in the 2025 Tsinghua University Student Awards Ceremony (学生表彰大会).
 * Departmental Comprehensive Scholarship, School of Safety Science and Engineering, Tsinghua University, 2024.
 * National Scholarship Representative (Top 1%)
 Special Prize Scholarship, China University of Mining and Technology (Beijing), 2020.

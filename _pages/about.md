@@ -8,48 +8,47 @@ redirect_from:
   - /about.html
 ---
 <section class="home-intro" aria-labelledby="intro-heading">
-  <p class="home-eyebrow">SAFETY SCIENCE · TSINGHUA UNIVERSITY</p>
-  <h1 id="intro-heading">Machine learning for a<br><span>safer physical world.</span></h1>
-  <p class="home-lead">I’m <strong>Yudie Jianyao</strong>. My research connects machine learning, atmospheric dispersion, and quantitative risk assessment to support public safety and emergency response.</p>
-  <p class="home-bio">I work with <a href="https://www.ssafs.tsinghua.edu.cn/en/info/1498/1021.htm">Prof. Xiaole Zhang</a> at the School of Safety Science, Tsinghua University. I’m interested in turning complex environmental data into fast, useful predictions of real-world hazards.</p>
+  <h1 id="intro-heading">About me</h1>
+  <p class="home-lead">I'm <strong>Yudie Jianyao</strong>, a Ph.D. student at the <a href="https://www.ssafs.tsinghua.edu.cn/index.htm">School of Safety Science</a>, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>. My research interests include probabilistic risk analysis, applications of machine learning in safety (<strong>AI4Safety</strong>), and generative models for rapid reconstruction of gas dispersion.</p>
+  <p class="home-bio">I am very fortunate to be advised by <a href="https://www.ssafs.tsinghua.edu.cn/en/info/1498/1021.htm"><strong>Prof. Xiaole Zhang</strong></a>. Under his guidance, I explore approaches to safety science, risk management, and real-time emergency response.</p>
+  <p class="home-bio">I welcome collaboration, discussion, and questions from faculty, peers, and students. Please feel free to <a href="mailto:jyyd23@mails.tsinghua.edu.cn">reach out</a>.</p>
   <div class="home-topics" aria-label="Research interests"><span>AI for Safety</span><span>Atmospheric dispersion</span><span>Risk assessment</span></div>
-  <nav class="home-contact" aria-label="Research profiles"><a class="home-button" href="mailto:jyyd23@mails.tsinghua.edu.cn">Get in touch</a><a href="https://scholar.google.com.hk/citations?user=FAt6AtMAAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.researchgate.net/profile/Yudie-Jianyao-2">ResearchGate</a><a href="https://github.com/Jyyd">GitHub</a></nav>
 </section>
 
+{% assign ordered_publications = site.publications | sort: 'publication_sort' %}
 <section class="home-section" aria-labelledby="papers-heading">
-  <div class="home-section-heading"><div><p class="home-eyebrow">SELECTED WORK</p><h2 id="papers-heading">Journal articles</h2></div><a class="home-all-link" href="{{ '/publications/' | relative_url }}">All publications</a></div>
-  <p class="home-section-note">Selected first-author research.</p>
+  <div class="home-section-heading"><h2 id="papers-heading">Selected publications</h2><a class="home-all-link" href="{{ '/publications/' | relative_url }}">All publications</a></div>
   <div class="research-cards">
-  {% for post in site.publications reversed %}
-    {% if post.featured and post.category == 'manuscripts' %}
-      {% include research-card.html %}
-    {% endif %}
+  {% for post in ordered_publications %}
+    {% if post.featured and post.category == 'manuscripts' %}{% include research-card.html %}{% endif %}
   {% endfor %}
   </div>
 </section>
 
 <section class="home-section" aria-labelledby="conferences-heading">
-  <div class="home-section-heading"><div><p class="home-eyebrow">PRESENTING RESEARCH</p><h2 id="conferences-heading">Conference papers</h2></div><a class="home-all-link" href="{{ '/talks/' | relative_url }}">Talks &amp; presentations</a></div>
+  <div class="home-section-heading"><h2 id="conferences-heading">Presentations</h2><a class="home-all-link" href="{{ '/presentations/' | relative_url }}">All presentations</a></div>
   <div class="research-cards">
-  {% for post in site.publications reversed %}
-    {% if post.featured and post.category == 'conferences' %}
-      {% include research-card.html %}
-    {% endif %}
+  {% for post in ordered_publications %}
+    {% if post.featured and post.category == 'conferences' %}{% include research-card.html %}{% endif %}
   {% endfor %}
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="research-heading">
-  <div class="home-section-heading"><div><p class="home-eyebrow">RESEARCH FOCUS</p><h2 id="research-heading">From data to safer decisions</h2></div></div>
-  <div class="home-focus-grid">
-    <article><span class="focus-symbol" aria-hidden="true">◌</span><h3>Environmental exposure</h3><p>High-resolution models of ultrafine particles and population exposure.</p></article>
-    <article><span class="focus-symbol" aria-hidden="true">≈</span><h3>Hazardous releases</h3><p>Fast dispersion prediction and sensor-informed data assimilation.</p></article>
-    <article><span class="focus-symbol" aria-hidden="true">◇</span><h3>Risk &amp; supervision</h3><p>Data-driven methods for risk assessment, anomaly detection, and safety management.</p></article>
-  </div>
+<section class="home-section home-projects" aria-labelledby="projects-heading">
+  <div class="home-section-heading"><h2 id="projects-heading">Selected projects</h2></div>
+  <article class="project-note"><h3>Atmospheric transport and quantitative risk of ultrafine particles</h3><p>Stacked machine learning for hourly, kilometre-scale exposure assessment, linking particle concentrations to population risk.</p><a href="https://doi.org/10.1038/s41467-025-56581-8">Nature Communications · 2025</a></article>
+  <article class="project-note"><h3>Data Assimilation-Driven Environmental Impact Assessment Technology for Hazardous Chemical Leakage</h3><p class="project-date">09/2023 – present</p><p>Deep learning for rapid dispersion prediction, sensor-informed data assimilation, and a low-cost monitoring platform. The project includes two registered software copyrights and research published in Building and Environment.</p><a href="https://doi.org/10.1016/j.buildenv.2026.114797">Building and Environment · 2026</a></article>
+  <article class="project-note"><h3>Food security supervision</h3><p>Statistical analysis, anomaly detection, and machine learning for grain storage safety supervision.</p><a href="https://doi.org/10.1016/j.jnlssr.2022.09.004">Journal of Safety Science and Resilience</a></article>
 </section>
 
 <section class="home-section home-education" aria-labelledby="education-heading">
-  <div class="home-section-heading"><div><p class="home-eyebrow">BACKGROUND</p><h2 id="education-heading">Education</h2></div><a class="home-all-link" href="{{ '/cv/' | relative_url }}">View CV</a></div>
+  <div class="home-section-heading"><h2 id="education-heading">Education</h2><a class="home-all-link" href="{{ '/cv/' | relative_url }}">View CV</a></div>
   <div class="education-row"><span class="education-year">2020–2026</span><div><h3>Tsinghua University</h3><p>Ph.D. program in Safety Science and Engineering</p><p class="education-detail">Supervisor: Xiaole Zhang</p></div></div>
   <div class="education-row"><span class="education-year">2016–2020</span><div><h3>China University of Mining and Technology (Beijing)</h3><p>B.Sc. in Safety Engineering</p><p class="education-detail">Supervisor: Wei Zhao</p></div></div>
+</section>
+
+<section class="home-section" aria-labelledby="honors-heading">
+  <div class="home-section-heading"><h2 id="honors-heading">Honors</h2><a class="home-all-link" href="{{ '/cv/' | relative_url }}">All honors</a></div>
+  <div class="honor-row"><span>2025</span><div><h3>Deng Jiaxian Scholarship · 邓稼先奖学金</h3><p>Tsinghua University</p></div></div>
+  <div class="honor-row"><span>2025</span><div><h3>First-Class Comprehensive Scholarship · 综合一等奖学金</h3><p>Tsinghua University</p></div></div>
 </section>

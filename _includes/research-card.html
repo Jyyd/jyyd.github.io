@@ -1,14 +1,17 @@
 {% assign paper_link = post.paperurl | default: post.source | default: post.url %}
 {% unless paper_link contains '://' %}{% assign paper_link = paper_link | relative_url %}{% endunless %}
-<article class="research-card">
+{% assign has_paper_image = true %}
+{% if post.thumb contains '/shared/' or post.thumb == nil %}{% assign has_paper_image = false %}{% endif %}
+<article class="research-card{% unless has_paper_image %} research-card--text{% endunless %}">
+  {% if has_paper_image %}
   <a class="research-card__image" href="{{ paper_link }}" aria-label="Read {{ post.title | escape }}">
     <img src="{{ post.thumb | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" width="480" height="320">
   </a>
+  {% endif %}
   <div class="research-card__body">
-    <div class="research-card__label">{{ post.display_type | default: 'Journal article' }} <span>{{ post.date | date: '%Y' }}</span></div>
     <h3><a href="{{ paper_link }}">{{ post.title }}</a></h3>
     <p class="research-card__authors">{{ post.authors | remove: '*' | remove: '#' | escape | replace: 'Yudie Jianyao', '<strong>Yudie Jianyao</strong>' }}</p>
-    <p class="research-card__venue">{{ post.venue }}</p>
+    <p class="research-card__venue">{{ post.venue }} <span class="paper-year">· {{ post.date | date: '%Y' }}</span></p>
     {% if include.show_abstract and post.content != empty %}
       {% assign abstract_text = post.content | strip %}
       {% if abstract_text != '' %}
